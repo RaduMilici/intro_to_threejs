@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 import './SceneView.css';
-import { createScene, updater } from '../../3D';
+import { createScene, destroyScene, updater } from '../../3D';
 
 class SceneView extends Component {
   componentDidMount() {
     createScene();
     updater.start();
+  }
+
+  componentWillUnmount() {
+    updater.stop();
+    updater.clear();
+    destroyScene();
   }
 
   render() {

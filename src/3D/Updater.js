@@ -16,6 +16,9 @@ const updater = {
   },
   add(func) {
     updates.push(func);
+  },
+  clear() {
+    updates.length = 0;
   }
 };
 

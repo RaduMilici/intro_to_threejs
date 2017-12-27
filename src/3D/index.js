@@ -1,4 +1,4 @@
-import { scene, camera, renderer, createScene } from './App';
+import { scene, camera, renderer, createScene, destroyScene } from './App';
 import updater from './Updater';
 
-export { scene, camera, renderer, createScene, updater };
+export { scene, camera, renderer, createScene, destroyScene, updater };

@@ -1,6 +1,6 @@
 import { PlaneGeometry, Mesh, TextureLoader, ShaderMaterial, RepeatWrapping, Color } from 'three';
-import textureUrl from '../../textures/noise.jpg';
-import { scene, updater } from '../../3D';
+import textureUrl from '../textures/noise.jpg';
+import { scene, updater } from './index';
 
 const speed = 0.05;
 const vertexShader = `
@@ -44,11 +44,11 @@ const makeMaterial = () => {
   });
 };
 
-const addPlane = () => {
+const addWireframePlane = () => {
   var geometry = new PlaneGeometry( 150, 100, 150, 100 );
   var plane = new Mesh( geometry, makeMaterial() );
   updater.add((timestamp, delta) => { plane.material.uniforms.time.value += speed * delta; });
   scene.add( plane );
 };
 
-export default addPlane;
+export default addWireframePlane;

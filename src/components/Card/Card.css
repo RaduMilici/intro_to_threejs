@@ -1,0 +1,18 @@
+.card-container {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.card-content {
+    color: #52d3fa;
+    background-color: #2C5B61;
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #52d3fa;
+}
