@@ -1,34 +1,39 @@
 import { Clock } from 'three';
-import { renderer, scene, camera } from './App';
 
-const updates = [];
-const clock = new Clock();
-let animationFrameId;
-
-const updater = {
-  start() {
-    clock.start();
-    animate();
-  },
-  stop() {
-    clock.stop();
-    cancelAnimationFrame(animationFrameId);
-  },
-  add(func) {
-    updates.push(func);
-  },
-  clear() {
-    updates.length = 0;
+class Updater {
+  constructor({ renderer, scene, camera }) {
+    this.renderer = renderer;
+    this.scene = scene;
+    this.camera = camera;
+    this.updates = [];
+    this.clock = new Clock();
+    this.animationFrameId = null;
   }
-};
 
-const animate = (timestamp) => {
-  animationFrameId = requestAnimationFrame( animate );
-  const delta = clock.getDelta();
-  updates.forEach(update => update(timestamp, delta));
-  renderer.render(scene, camera);
-};
+  start() {
+    this.clock.start();
+    this.animate();
+  }
 
+  stop() {
+    this.clock.stop();
+    cancelAnimationFrame(this.animationFrameId);
+  }
 
+  add(func) {
+    this.updates.push(func);
+  }
 
-export default updater;
+  clear() {
+    this.updates.length = 0;
+  }
+
+  animate(timestamp) {
+    this.animationFrameId = requestAnimationFrame( this.animate.bind(this) );
+    const delta = this.clock.getDelta();
+    this.updates.forEach(update => update(timestamp, delta));
+    this.renderer.render(this.scene, this.camera);
+  };
+}
+
+export default Updater;

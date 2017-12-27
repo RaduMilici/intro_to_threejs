@@ -16,3 +16,7 @@
     border-radius: 15px;
     border: 1px solid #52d3fa;
 }
+
+.card-content h2 {
+    margin-top: 0;
+}

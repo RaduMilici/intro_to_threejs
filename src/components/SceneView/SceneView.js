@@ -1,24 +1,20 @@
 import React, { Component } from 'react';
 import './SceneView.css';
-import { createScene, destroyScene, updater } from '../../3D';
+import {App3D} from '../../3D';
+import WireframePlane from '../../3D/WireframePlane';
 
 class SceneView extends Component {
-  componentDidMount() {
-    createScene();
-    updater.start();
-  }
-
-  componentWillUnmount() {
-    updater.stop();
-    updater.clear();
-    destroyScene();
+  constructor() {
+    super();
   }
 
   render() {
     return (
-      <div id='WebGL'>
-        { this.props.children }
-      </div>
+        <div>
+          <div id='WebGL'>
+            { this.props.children }
+          </div>
+        </div>
     );
   }
 }

@@ -7,10 +7,12 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      currentIndex: 2,
+      currentIndex: 0,
       slides: [<Welcome/>, <WhatIsThree/>, <Renderer/>],
     };
     this.addKeyPress();
+    // <iframe id="product-video" class="video-iframe" width="100%" height="800" scrolling="auto" border="0" src="https://vr-player.vrecards.com/index.html?video=https://scenes.vrecards.com/renderer_v2/rendered/B1gbbquwb.mp4&amp;is_stereo=false&amp;start_yaw=90" data-src="https://vr-player.vrecards.com/index.html?video=https://scenes.vrecards.com/renderer_v2/rendered/B1gbbquwb.mp4&amp;is_stereo=false&amp;start_yaw=90" allowfullscreen=""></iframe>
+    // <iframe id="product-video" class="video-iframe" width="100%" height="800" scrolling="auto" border="0" src="https://vr-player.vrecards.com/index.html?video=https://scenes.vrecards.com/renderer_v2/rendered/SJqciFb_W.mp4&amp;is_stereo=false&amp;start_yaw=90" data-src="https://vr-player.vrecards.com/index.html?video=https://scenes.vrecards.com/renderer_v2/rendered/SJqciFb_W.mp4&amp;is_stereo=false&amp;start_yaw=90" allowfullscreen=""></iframe>
     /*
     setInterval(() => {
       const currentIndex = this.state.currentIndex === 1 ? 0 : 1;
@@ -22,13 +24,11 @@ class App extends Component {
   addKeyPress() {
     document.onkeydown = (e) => {
       let currentIndex = this.state.currentIndex;
-      switch (e.keyCode) {
-        case 37:
-          currentIndex--;
-          break;
-        case 39:
-          currentIndex++;
-          break;
+      if(e.keyCode === 37) {
+        currentIndex--;
+      }
+      else if (e.keyCode === 39) {
+        currentIndex++;
       }
       this.changeSlide(currentIndex);
     };
@@ -49,11 +49,7 @@ class App extends Component {
   }
 
   render() {
-    return (
-        <div onKeyDown={(e) => { console.log(e) }}>
-          { this.activeSlide() }
-        </div>
-    );
+    return this.activeSlide();
 
   }
 }

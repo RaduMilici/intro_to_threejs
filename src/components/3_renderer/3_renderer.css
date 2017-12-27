@@ -1,0 +1,10 @@
+.ace-editor {
+    display: inline-block;
+}
+
+.renderer-demo-scene {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+}
