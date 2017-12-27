@@ -11,15 +11,16 @@ class App3D {
       scene: this.scene,
       camera: this.camera,
     });
+    this.container = null;
     this.createScene(containerId);
   }
 
   createScene(containerId) {
-    const container = document.querySelector(containerId);
-    this.camera.aspect = container.offsetWidth / container.offsetHeight;
+    this.container = document.querySelector(containerId);
+    this.camera.aspect = this.container.offsetWidth / this.container.offsetHeight;
     this.camera.updateProjectionMatrix();
-    this.renderer.setSize( container.offsetWidth, container.offsetHeight);
-    container.appendChild( this.renderer.domElement );
+    this.renderer.setSize( this.container.offsetWidth, this.container.offsetHeight);
+    this.container.appendChild( this.renderer.domElement );
   }
 
   destroyScene() {
