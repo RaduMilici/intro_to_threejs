@@ -15,6 +15,7 @@ class SceneView extends Component {
     const wireframePlane = new WireframePlane(this.app3d.updater);
     this.app3d.scene.add(wireframePlane);
     this.app3d.camera.position.z = 50;
+    // this.app3d.renderer.compile (this.app3d.scene, this.app3d.camera);
     this.app3d.updater.start();
   }
 

@@ -8,7 +8,7 @@ class GpuVsCpu extends Component {
         <div>
           <SceneView/>
           <Card>
-            <h2>The wizardry of hardware acceleration</h2>
+            <h2>The wizardry of parallel processing</h2>
             <div style={{'max-width': '1200px'}}>
               <p>Architecturally, the <strong>CPU</strong> is composed of just few cores that can handle a few software threads at a time.</p>
               <p>In contrast, a <strong>GPU</strong> is composed of hundreds of cores that can handle thousands of threads simultaneously.</p>

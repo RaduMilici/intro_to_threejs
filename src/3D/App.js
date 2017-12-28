@@ -25,13 +25,9 @@ class App3D {
   }
 
   destroyScene() {
-    const gl = this.renderer.domElement.getContext('webgl');
-    gl.getExtension('WEBGL_lose_context').loseContext();
-    this.disposeHierarchy(this.scene);
+    this.renderer.dispose();
     this.renderer.forceContextLoss();
-    this.renderer.context = null;
-    this.renderer.domElement = null;
-    this.renderer = null;
+    this.disposeHierarchy(this.scene);
   }
 
   disposeHierarchy(obj) {
