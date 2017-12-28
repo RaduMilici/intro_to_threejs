@@ -18,6 +18,7 @@ class AnimationFrames extends Component {
               <p style={{'font-weight': 'bold'}}>The static images do not physically change but give the appearance of motion because of being rapidly changed faster than the eye can see.</p>
               <img width='500px' src={animation_frames}/>
               <img width='500px' height='300px' src={animation_frames_shark}/>
+              <span className='copyright-info'>via <a href='https://giphy.com/gifs/left-shark-XjBM2R3QfJYIw'>giphy</a></span>
             </div>
           </Card>
         </div>

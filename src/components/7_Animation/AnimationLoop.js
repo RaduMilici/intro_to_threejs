@@ -18,6 +18,7 @@ const AnimationLoop = () => {
 }
               `}</pre>
               <img style={{'display': 'block'}} width='600px' src={stop_motion}/>
+              <span className='copyright-info'>Coraline, Copyright © 2009 by Focus Features.</span>
             </div>
           </Card>
         </div>

@@ -20,3 +20,9 @@
 .card-content h2 {
     margin-top: 0;
 }
+
+.copyright-info {
+    float: right;
+    font-size: 15px;
+    color: darkgray;
+}
