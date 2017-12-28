@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import AceEditor from 'react-ace';
 import * as THREE from 'three';
 import './CodeView.css'
+import 'brace/mode/javascript';
+import 'brace/theme/github';
 
 class CodeView extends Component {
-  constructor({ code, width = 500, onChange = () => {} }) {
+  constructor({ code, width = 500, onChange, beforeChange, onClick }) {
     super();
-    this.state = { code, width, onChange };
+    this.state = { code, width, onChange, beforeChange, onClick };
   }
 
   componentDidMount() {
@@ -16,6 +18,7 @@ class CodeView extends Component {
   onChange = code => {
     try {
       const func = new Function('THREE', code);
+      this.props.beforeChange();
       const returnValue = func.bind(this)(THREE);
       this.props.onChange(returnValue);
     }
@@ -38,10 +41,19 @@ class CodeView extends Component {
               value={this.state.code}
               editorProps={{$blockScrolling: true}}
           />
-          <div className='code-view'></div>
+          <div onClick={this.state.onClick} className='code-view'></div>
         </div>
     );
   }
 }
+
+
+CodeView.defaultProps = {
+  code: '',
+  width: 500,
+  onChange: () => {},
+  beforeChange: () => {},
+  onClick: () => {},
+};
 
 export default CodeView;

@@ -12,14 +12,16 @@ class Helpers extends Object3D {
   addGid() {
     const size = 10;
     const divisions = 10;
-    const gridHelper = new GridHelper( size, divisions );
-    this.add( gridHelper );
+    const color1 = 0x000000;
+    const color2 = 0x444444;
+    this.gridHelper = new GridHelper(size, divisions, color1, color2);
+    this.add(this.gridHelper);
   }
 
   addAxes() {
     const size = 5;
-    const axesHelper = new AxesHelper(size);
-    this.add(axesHelper);
+    this.axesHelper = new AxesHelper(size);
+    this.add(this.axesHelper);
   }
 
   setCamera(camera) {

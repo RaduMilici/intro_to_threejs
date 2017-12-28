@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
-import Welcome from './components/1_welcome/Welcome';
-import WhatIsThree from './components/2_what_is_three/What_is_three';
-import Renderer from './components/3_renderer/Renderer';
-import Camera from './components/4_camera/Camera';
+import { Welcome, WhatIsThree, Renderer, Camera, Scene } from './components';
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      currentIndex: 3,
-      slides: [<Welcome/>, <WhatIsThree/>, <Renderer/>, <Camera/>],
+      currentIndex: 4,
+      slides: [<Welcome/>, <WhatIsThree/>, <Renderer/>, <Camera/>, <Scene/>],
     };
     this.addKeyPress();
     // <iframe id="product-video" class="video-iframe" width="100%" height="800" scrolling="auto" border="0" src="https://vr-player.vrecards.com/index.html?video=https://scenes.vrecards.com/renderer_v2/rendered/B1gbbquwb.mp4&amp;is_stereo=false&amp;start_yaw=90" data-src="https://vr-player.vrecards.com/index.html?video=https://scenes.vrecards.com/renderer_v2/rendered/B1gbbquwb.mp4&amp;is_stereo=false&amp;start_yaw=90" allowfullscreen=""></iframe>

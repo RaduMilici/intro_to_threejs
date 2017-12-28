@@ -1,18 +1,8 @@
 import React, { Component } from 'react';
 import SceneView from '../SceneView/SceneView';
-import WireframePlane from '../../3D/WireframePlane';
 import Card from '../Card/Card';
-import { App3D } from '../../3D';
 
 class WhatIsThree extends Component {
-  componentDidMount() {
-    this.app3d = new App3D('#WebGL');
-    const wireframePlane = new WireframePlane(this.app3d.updater);
-    this.app3d.scene.add(wireframePlane);
-    this.app3d.camera.position.z = 50;
-    this.app3d.updater.start();
-  }
-
   render() {
     return (
         <div>

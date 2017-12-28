@@ -24,6 +24,13 @@ class Updater {
     this.updates.push(func);
   }
 
+  remove(func) {
+    const index = this.updates.findIndex(u => u.name === func.name);
+    if (index > -1) {
+      this.updates.splice(index, 1);
+    }
+  }
+
   clear() {
     this.updates.length = 0;
   }

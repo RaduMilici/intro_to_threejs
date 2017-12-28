@@ -17,8 +17,12 @@ class Welcome extends Component {
     this.app3d.updater.start();
   }
 
+  componentWillUnmount() {
+    this.app3d.destroyScene();
+  }
+
   render() {
-    return <SceneView/>;
+    return <SceneView background={false}/>;
   }
 }
 

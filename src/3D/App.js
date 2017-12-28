@@ -24,15 +24,21 @@ class App3D {
   }
 
   destroyScene() {
-    this.disposeHierarchy(this.scene, this.disposeObject);
+    const gl = this.renderer.domElement.getContext('webgl');
+    gl.getExtension('WEBGL_lose_context').loseContext();
+    this.disposeHierarchy(this.scene);
+    this.renderer.forceContextLoss();
+    this.renderer.context = null;
+    this.renderer.domElement = null;
+    this.renderer = null;
   }
 
-  disposeHierarchy(obj, callback) {
+  disposeHierarchy(obj) {
     for (var i = obj.children.length - 1; i >= 0; i--) {
       var child = obj.children[i];
       obj.remove(child);
-      this.disposeHierarchy(child, this.disposeObject);
-      callback(child);
+      this.disposeHierarchy(child, this.disposeObject.bind(this));
+      this.disposeObject(child);
     }
   };
 
