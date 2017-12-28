@@ -11,8 +11,9 @@ class Basics extends Component {
           <Card>
             <h2>1. The basics of 3D rendering</h2>
             <Quote
-                text='Big things have small beginnings.'
-                author='Mr. Dryden'
+                width='1000'
+                text='If you wish to make an apple pie from scratch, you must first create the universe.'
+                author='Carl Edward Sagan - astronomer, astrophysicist and astrobiologist'
             />
           </Card>
         </div>

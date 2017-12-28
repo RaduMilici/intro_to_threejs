@@ -1,0 +1,10 @@
+.framerate-wide-container {
+    position: relative;
+    width: 1000px;
+    height: 160px;
+}
+
+.framerate-wide-container canvas {
+    width: 1000px;
+    height: 160px;
+}

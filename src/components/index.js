@@ -8,6 +8,7 @@ import Recap from './6_recap/Recap';
 import BasicsInAction from './6_recap/BasicsInAction';
 import Animation from './7_Animation/Animation';
 import AnimationFrames from './7_Animation/AnimationFrames';
+import FrameRate from './8_FrameRate/FrameRate';
 
 export { Welcome, WhatIsThree, Basics, Renderer, Camera, Scene, Recap,
-  BasicsInAction, Animation, AnimationFrames };
+  BasicsInAction, Animation, AnimationFrames, FrameRate };

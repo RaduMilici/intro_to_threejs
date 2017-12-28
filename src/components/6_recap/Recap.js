@@ -47,7 +47,7 @@ class Recap extends Component {
               <li>
                 Add the mesh to the scene.
                 <br/>
-                <code>scene.add(mesh);</code>
+                <code>scene.add(cube);</code>
               </li>
 
               <li>

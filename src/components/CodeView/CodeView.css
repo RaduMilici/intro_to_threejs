@@ -9,3 +9,11 @@
     display: inline-block;
     overflow: hidden;
 }
+
+.code-view-wide {
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}

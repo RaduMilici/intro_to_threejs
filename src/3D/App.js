@@ -2,7 +2,7 @@ import { Scene, PerspectiveCamera, WebGLRenderer } from 'three';
 import Updater from './Updater';
 
 class App3D {
-  constructor(containerId) {
+  constructor(containerId, frameCap) {
     this.scene = new Scene();
     this.camera = new PerspectiveCamera( 75, null, 0.1, 1000 );
     this.renderer = new WebGLRenderer({ antialias: false });
@@ -10,6 +10,7 @@ class App3D {
       renderer: this.renderer,
       scene: this.scene,
       camera: this.camera,
+      frameCap,
     });
     this.container = null;
     this.createScene(containerId);
