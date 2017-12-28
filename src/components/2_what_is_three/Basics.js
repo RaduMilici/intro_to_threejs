@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SceneView from '../SceneView/SceneView';
 import Card from '../Card/Card';
+import Quote from '../Card/Quote/Quote';
 
 class Basics extends Component {
   render() {
@@ -9,11 +10,10 @@ class Basics extends Component {
           <SceneView/>
           <Card>
             <h2>1. The basics of 3D rendering</h2>
-            <div style={{'color': 'darkgray'}}>
-              <q style={{'font-style': 'italic'}}>Big things have small beginnings.</q>
-              <br/>
-              <p style={{'float': 'right', 'margin': '0'}}>Mr. Dryden</p>
-            </div>
+            <Quote
+                text='Big things have small beginnings.'
+                author='Mr. Dryden'
+            />
           </Card>
         </div>
     );

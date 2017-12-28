@@ -6,5 +6,8 @@ import Camera from './4_camera/Camera';
 import Scene from './5_scene/Scene';
 import Recap from './6_recap/Recap';
 import BasicsInAction from './6_recap/BasicsInAction';
+import Animation from './7_Animation/Animation';
+import AnimationFrames from './7_Animation/AnimationFrames';
 
-export { Welcome, WhatIsThree, Basics, Renderer, Camera, Scene, Recap, BasicsInAction };
+export { Welcome, WhatIsThree, Basics, Renderer, Camera, Scene, Recap,
+  BasicsInAction, Animation, AnimationFrames };
