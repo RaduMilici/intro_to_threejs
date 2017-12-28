@@ -12,9 +12,8 @@ class Helpers extends Object3D {
   addGid() {
     const size = 10;
     const divisions = 10;
-    const color1 = 0x000000;
-    const color2 = 0x444444;
-    this.gridHelper = new GridHelper(size, divisions, color1, color2);
+    const color = 0x444444;
+    this.gridHelper = new GridHelper(size, divisions, color, color);
     this.add(this.gridHelper);
   }
 

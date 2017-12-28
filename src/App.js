@@ -1,22 +1,18 @@
 import React, { Component } from 'react';
-import { Welcome, WhatIsThree, Renderer, Camera, Scene, Recap } from './components';
+import * as slideClasses from './components';
 
 class App extends Component {
   constructor() {
     super();
-    this.state = {
-      currentIndex: 5,
-      slides: [<Welcome/>, <WhatIsThree/>, <Renderer/>, <Camera/>, <Scene/>, <Recap/>],
-    };
+    const slides = [];
+    Object.keys(slideClasses).forEach(slideName => {
+      const Slide = slideClasses[slideName];
+      slides.push(<Slide/>)
+    });
+    this.state = { slides, currentIndex: 0 };
     this.addKeyPress();
     // <iframe id="product-video" class="video-iframe" width="100%" height="800" scrolling="auto" border="0" src="https://vr-player.vrecards.com/index.html?video=https://scenes.vrecards.com/renderer_v2/rendered/B1gbbquwb.mp4&amp;is_stereo=false&amp;start_yaw=90" data-src="https://vr-player.vrecards.com/index.html?video=https://scenes.vrecards.com/renderer_v2/rendered/B1gbbquwb.mp4&amp;is_stereo=false&amp;start_yaw=90" allowfullscreen=""></iframe>
     // <iframe id="product-video" class="video-iframe" width="100%" height="800" scrolling="auto" border="0" src="https://vr-player.vrecards.com/index.html?video=https://scenes.vrecards.com/renderer_v2/rendered/SJqciFb_W.mp4&amp;is_stereo=false&amp;start_yaw=90" data-src="https://vr-player.vrecards.com/index.html?video=https://scenes.vrecards.com/renderer_v2/rendered/SJqciFb_W.mp4&amp;is_stereo=false&amp;start_yaw=90" allowfullscreen=""></iframe>
-    /*
-    setInterval(() => {
-      const currentIndex = this.state.currentIndex === 1 ? 0 : 1;
-      this.setState({ currentIndex });
-    }, 5000);
-    */
   }
 
   addKeyPress() {
@@ -38,17 +34,8 @@ class App extends Component {
     }
   }
 
-  activeSlide() {
-    return this.state.slides[this.state.currentIndex];
-  }
-
-  keyDownHandler(e) {
-    console.log(e.keyCode);
-  }
-
   render() {
-    return this.activeSlide();
-
+    return this.state.slides[this.state.currentIndex];
   }
 }
 

@@ -6,6 +6,7 @@ import Card from '../Card/Card';
 import CodeView from '../CodeView/CodeView';
 import * as THREE from 'three';
 import OrbitControlsImport from 'three-orbit-controls';
+import Helpers from '../../3D/Helpers';
 const OrbitControls = OrbitControlsImport(THREE);
 
 class _Scene extends Component {
@@ -16,12 +17,12 @@ class _Scene extends Component {
       code:
 `const scene = new THREE.Scene();
 
-const geometry = new THREE.CubeGeometry(5, 5, 5);
+const geometry = new THREE.CubeGeometry(1, 1, 1);
 const material = new THREE.MeshBasicMaterial({color: 0x00ff00});
 const cube = new THREE.Mesh(geometry, material);
+cube.position.set(0, 0, 0);
 
 scene.add(cube);
-
 return cube;
 `,
     }
@@ -39,10 +40,12 @@ return cube;
   }
 
   addDemoView() {
+    const helpers = new Helpers();
     this.app3d = new App3D('.code-view');
     this.app3d.camera.position.set(5, 4, 5);
     this.app3d.camera.lookAt(0, 0, 0);
     this.app3d.scene.add(this.scene);
+    this.app3d.scene.add(helpers);
     this.app3d.updater.start();
   }
 
