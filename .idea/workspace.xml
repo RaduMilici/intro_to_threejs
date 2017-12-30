@@ -2,30 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b508b57a-0de7-44e2-a02b-88a876adb39a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame/AnimationInAction.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/3_lights/10_lights/Lights.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/3_lights/11_light_types/DirectionalLight.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/3_lights/11_light_types/LightTypes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/3_lights/11_light_types/SpotLight.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/1_welcome/IntroText.js" afterPath="$PROJECT_DIR$/src/components/1_the_basics/1_welcome/IntroText.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/1_welcome/Particles.js" afterPath="$PROJECT_DIR$/src/components/1_the_basics/1_welcome/Particles.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/1_welcome/Welcome.js" afterPath="$PROJECT_DIR$/src/components/1_the_basics/1_welcome/Welcome.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/2_what_is_three/Basics.js" afterPath="$PROJECT_DIR$/src/components/1_the_basics/2_what_is_three/Basics.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/2_what_is_three/GpuVsCpu.js" afterPath="$PROJECT_DIR$/src/components/1_the_basics/2_what_is_three/GpuVsCpu.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/2_what_is_three/What_is_three.js" afterPath="$PROJECT_DIR$/src/components/1_the_basics/2_what_is_three/What_is_three.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/3_renderer/Renderer.js" afterPath="$PROJECT_DIR$/src/components/1_the_basics/3_renderer/Renderer.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/4_camera/Camera.js" afterPath="$PROJECT_DIR$/src/components/1_the_basics/4_camera/Camera.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/5_scene/Scene.js" afterPath="$PROJECT_DIR$/src/components/1_the_basics/5_scene/Scene.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/6_recap/BasicsInAction.js" afterPath="$PROJECT_DIR$/src/components/1_the_basics/6_recap/BasicsInAction.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/6_recap/Recap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/components/6_recap/Recap.js" afterPath="$PROJECT_DIR$/src/components/1_the_basics/6_recap/Recap.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/7_Animation/Animation.js" afterPath="$PROJECT_DIR$/src/components/2_animation/7_Animation/Animation.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/7_Animation/AnimationFrames.js" afterPath="$PROJECT_DIR$/src/components/2_animation/7_Animation/AnimationFrames.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/7_Animation/AnimationLoop.js" afterPath="$PROJECT_DIR$/src/components/2_animation/7_Animation/AnimationLoop.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/7_Animation/RequestAnimationFrame.js" afterPath="$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame/RequestAnimationFrame.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/8_FrameRate/FrameRate.css" afterPath="$PROJECT_DIR$/src/components/2_animation/8_FrameRate/FrameRate.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/8_FrameRate/FrameRate.js" afterPath="$PROJECT_DIR$/src/components/2_animation/8_FrameRate/FrameRate.js" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/src/3D/App.js" afterPath="$PROJECT_DIR$/src/3D/App.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/2_animation/7_Animation/AnimationLoop.js" afterPath="$PROJECT_DIR$/src/components/2_animation/7_Animation/AnimationLoop.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame/AnimationInAction.js" afterPath="$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame/AnimationInAction.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame/RequestAnimationFrame.js" afterPath="$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame/RequestAnimationFrame.js" />
       <change beforePath="$PROJECT_DIR$/src/components/CodeView/CodeView.js" afterPath="$PROJECT_DIR$/src/components/CodeView/CodeView.js" />
       <change beforePath="$PROJECT_DIR$/src/components/index.js" afterPath="$PROJECT_DIR$/src/components/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,11 +28,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+            <state relative-caret-position="330">
+              <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/3D/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestAnimationFrame.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame/RequestAnimationFrame.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -51,23 +60,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Renderer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/1_the_basics/3_renderer/Renderer.js">
+      <file leaf-file-name="AnimationInAction.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame/AnimationInAction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+            <state relative-caret-position="682">
+              <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
               <folding>
-                <element signature="e#0#55#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +75,8 @@
       <file leaf-file-name="AnimationFrames.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/2_animation/7_Animation/AnimationFrames.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="41" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="88">
+              <caret line="4" column="77" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="4" selection-end-column="77" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -85,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RequestAnimationFrame.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame/RequestAnimationFrame.js">
+      <file leaf-file-name="LightTypes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/3_lights/11_light_types/LightTypes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="397">
+              <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -97,36 +96,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Recap.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/1_the_basics/6_recap/Recap.js">
+      <file leaf-file-name="DirectionalLight.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/3_lights/11_light_types/DirectionalLight.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="22">
+              <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="40" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnimationInAction.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame/AnimationInAction.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -134,8 +109,8 @@
       <file leaf-file-name="CodeView.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/CodeView/CodeView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            <state relative-caret-position="223">
+              <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="26" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -143,12 +118,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnimationLoop.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/2_animation/7_Animation/AnimationLoop.js">
+      <file leaf-file-name="Camera.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/1_the_basics/4_camera/Camera.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="880">
+              <caret line="47" column="40" lean-forward="false" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/2_animation/7_Animation/Animation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,9 +154,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;</find>
-      <find>addLight</find>
-      <find>sce</find>
       <find>createScene</find>
       <find>centerText</find>
       <find>addWireframePlane</find>
@@ -183,7 +169,6 @@
       <find>App3D</find>
       <find>defaultpr</find>
       <find>context</find>
-      <find>OrbitControls</find>
       <find>helpers</find>
       <find>keyDownHandler</find>
       <find>fps</find>
@@ -195,6 +180,10 @@
       <find>destroyScene</find>
       <find>state</find>
       <find>color: dar</find>
+      <find>orbitc</find>
+      <find>OrbitControls</find>
+      <find>moon</find>
+      <find>controls</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -206,12 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/Card/Card.js" />
-        <option value="$PROJECT_DIR$/src/3D/plane.js" />
-        <option value="$PROJECT_DIR$/src/3D/index.js" />
-        <option value="$PROJECT_DIR$/src/components/1_welcome/text.js" />
-        <option value="$PROJECT_DIR$/src/components/1_welcome/particles.js" />
         <option value="$PROJECT_DIR$/src/3D/WireframePlane.js" />
         <option value="$PROJECT_DIR$/src/components/1_welcome/Particles.js" />
         <option value="$PROJECT_DIR$/src/components/SceneView/SceneView.css" />
@@ -243,20 +226,26 @@
         <option value="$PROJECT_DIR$/src/components/Card/Card.css" />
         <option value="$PROJECT_DIR$/src/components/2_what_is_three/GpuVsCpu.js" />
         <option value="$PROJECT_DIR$/src/components/SceneView/SceneView.js" />
-        <option value="$PROJECT_DIR$/src/3D/App.js" />
         <option value="$PROJECT_DIR$/src/components/3_renderer/Renderer.js" />
         <option value="$PROJECT_DIR$/src/components/7_Animation/AnimationFrames.js" />
         <option value="$PROJECT_DIR$/src/components/7_Animation/AnimationLoop.js" />
         <option value="$PROJECT_DIR$/src/components/1_the_basics/1_welcome/Welcome.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/CodeView/CodeView.js" />
         <option value="$PROJECT_DIR$/src/components/1_the_basics/3_renderer/Renderer.js" />
-        <option value="$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame/AnimationInAction.js" />
-        <option value="$PROJECT_DIR$/src/components/index.js" />
         <option value="$PROJECT_DIR$/src/components/1_the_basics/6_recap/Recap.css" />
         <option value="$PROJECT_DIR$/src/components/1_the_basics/6_recap/Recap.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame/AnimationInAction.js" />
         <option value="$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame/RequestAnimationFrame.js" />
+        <option value="$PROJECT_DIR$/src/components/2_animation/7_Animation/AnimationLoop.js" />
+        <option value="$PROJECT_DIR$/src/components/3_lights/10_lights/Lights.js" />
+        <option value="$PROJECT_DIR$/src/components/3_lights/10_lights/LightTypes.js" />
+        <option value="$PROJECT_DIR$/src/components/index.js" />
+        <option value="$PROJECT_DIR$/src/components/2_animation/7_Animation/Animation.js" />
+        <option value="$PROJECT_DIR$/src/3D/App.js" />
+        <option value="$PROJECT_DIR$/src/components/3_lights/11_light_types/LightTypes.js" />
+        <option value="$PROJECT_DIR$/src/components/CodeView/CodeView.js" />
+        <option value="$PROJECT_DIR$/src/components/3_lights/11_light_types/DirectionalLight.js" />
       </list>
     </option>
   </component>
@@ -278,8 +267,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1440" />
     <option name="y" value="-157" />
-    <option name="width" value="1920" />
-    <option name="height" value="1007" />
+    <option name="width" value="1440" />
+    <option name="height" value="828" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -299,6 +288,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -316,12 +306,6 @@
               <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="3D" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -329,75 +313,20 @@
               <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="1_the_basics" type="462c0819:PsiDirectoryNode" />
+              <item name="3_lights" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="1_the_basics" type="462c0819:PsiDirectoryNode" />
-              <item name="1_welcome" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="1_the_basics" type="462c0819:PsiDirectoryNode" />
-              <item name="3_renderer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="1_the_basics" type="462c0819:PsiDirectoryNode" />
-              <item name="5_scene" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="1_the_basics" type="462c0819:PsiDirectoryNode" />
-              <item name="6_recap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="2_animation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="2_animation" type="462c0819:PsiDirectoryNode" />
-              <item name="7_Animation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="2_animation" type="462c0819:PsiDirectoryNode" />
-              <item name="9_RequestAnimationFrame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="CodeView" type="462c0819:PsiDirectoryNode" />
+              <item name="3_lights" type="462c0819:PsiDirectoryNode" />
+              <item name="11_light_types" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -411,13 +340,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/3_lights/11_light_types" />
       <recent name="$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame" />
       <recent name="$PROJECT_DIR$/src/components/2_animation" />
       <recent name="$PROJECT_DIR$/src/components/1_the_basics" />
       <recent name="$PROJECT_DIR$/src/components/1_welcome" />
-      <recent name="$PROJECT_DIR$/src/3D" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/3_lights/11_light_types" />
       <recent name="$PROJECT_DIR$/src/components/6_Recap" />
       <recent name="$PROJECT_DIR$/src/components/3_renderer" />
     </key>
@@ -461,26 +391,26 @@
       <workItem from="1514467602154" duration="12398000" />
       <workItem from="1514482076861" duration="4015000" />
       <workItem from="1514487355014" duration="12771000" />
-      <workItem from="1514644204359" duration="5974000" />
+      <workItem from="1514644204359" duration="15554000" />
+      <workItem from="1514667598936" duration="2233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99477000" />
+    <option name="totallyTimeSpent" value="111290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-157" width="1920" height="1007" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16640337" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16535018" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29057017" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2883772" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -488,6 +418,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -504,31 +435,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/1_the_basics/1_welcome/Welcome.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/3D/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/3D/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="54" lean-forward="false" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/3D/Updater.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -640,7 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,17 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/1_the_basics/4_camera/Camera.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="67" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="24" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -674,7 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,7 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -690,9 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#108#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,7 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,9 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,31 +639,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/3D/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/1_the_basics/2_what_is_three/GpuVsCpu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/2_animation/7_Animation/Animation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,20 +677,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CodeView/CodeView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/1_the_basics/6_recap/Recap.css" />
+    <entry file="file://$PROJECT_DIR$/src/components/1_the_basics/6_recap/Recap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/3_lights/10_lights/Lights.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/2_animation/7_Animation/AnimationLoop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/3D/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame/RequestAnimationFrame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -838,75 +741,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/2_animation/7_Animation/AnimationFrames.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="41" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="88">
+          <caret line="4" column="77" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="4" selection-end-column="77" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/1_the_basics/6_recap/Recap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/1_the_basics/6_recap/Recap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
+    <entry file="file://$PROJECT_DIR$/src/components/2_animation/7_Animation/Animation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame/AnimationInAction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+        <state relative-caret-position="682">
+          <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/2_animation/7_Animation/AnimationLoop.js">
+    <entry file="file://$PROJECT_DIR$/src/components/1_the_basics/4_camera/Camera.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="880">
+          <caret line="47" column="40" lean-forward="false" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/3_lights/11_light_types/LightTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CodeView/CodeView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/3_lights/11_light_types/DirectionalLight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="40" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame/RequestAnimationFrame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

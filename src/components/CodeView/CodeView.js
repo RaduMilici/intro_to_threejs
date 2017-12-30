@@ -14,14 +14,18 @@ class CodeView extends Component {
     this.onChange(this.props.code);
   }
 
-  onChange = code => {
+  execute(code) {
+    const argNames = ['THREE', ...Object.keys(this.props.args)];
+    const argValues = [THREE, ...Object.values(this.props.args)];
+    const func = new Function(...argNames, code);
+    return func.bind(this)(...argValues);
+  }
+
+  onChange = (code, { callOnChange = true, callBeforeChange = true } = {}) => {
     try {
-      const argNames = ['THREE', ...Object.keys(this.props.args)];
-      const argValues = [THREE, ...Object.values(this.props.args)];
-      const func = new Function(...argNames, code);
-      this.props.beforeChange();
-      const returnValue = func.bind(this)(...argValues);
-      this.props.onChange(returnValue);
+      if (callBeforeChange) this.props.beforeChange();
+      const returnValue = this.execute(code);
+      if (callOnChange) this.props.onChange(returnValue, code);
     }
     catch (e) {
       if (e instanceof SyntaxError) {
@@ -39,6 +43,7 @@ class CodeView extends Component {
               theme='github'
               fontSize={this.props.fontSize}
               width={`${this.props.width}px`}
+              height={`${this.props.height}px`}
               onChange={this.onChange}
               value={this.props.code}
               readOnly={this.props.readOnly}
@@ -54,6 +59,7 @@ class CodeView extends Component {
 CodeView.defaultProps = {
   code: '',
   width: 500,
+  height: 500,
   readOnly: false,
   args: {},
   fontSize: 12,

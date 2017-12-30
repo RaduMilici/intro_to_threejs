@@ -30,7 +30,7 @@ class App3D {
     this.disposeHierarchy(this.scene);
   }
 
-  disposeHierarchy(obj) {
+  disposeHierarchy(obj = this.scene) {
     for (var i = obj.children.length - 1; i >= 0; i--) {
       var child = obj.children[i];
       obj.remove(child);

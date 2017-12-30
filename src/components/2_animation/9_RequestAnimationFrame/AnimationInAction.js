@@ -32,7 +32,7 @@ requestAnimationFrame(animate);
 
   componentDidMount() {
     this.app3d = new App3D('.code-view');
-    this.app3d.camera.position.set(0, 0, 5);
+    this.app3d.camera.position.set(0, 0, 3);
     this.app3d.scene.add(this.cube);
     const editorArgs = {
       'cube': this.cube,
