@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import SceneView from '../SceneView/SceneView';
-import Card from '../Card/Card';
-import Quote from '../Card/Quote/Quote';
+import SceneView from '../../SceneView/SceneView';
+import Card from '../../Card/Card';
+import Quote from '../../Card/Quote/Quote';
 
 class Basics extends Component {
   render() {

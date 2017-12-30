@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Scene } from 'three';
-import SceneView from '../SceneView/SceneView';
-import Card from '../Card/Card';
-import CodeView from '../CodeView/CodeView';
+import SceneView from '../../SceneView/SceneView';
+import Card from '../../Card/Card';
+import CodeView from '../../CodeView/CodeView';
 
 class BasicsInAction extends Component {
   constructor() {

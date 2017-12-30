@@ -6,20 +6,21 @@ import 'brace/mode/javascript';
 import 'brace/theme/github';
 
 class CodeView extends Component {
-  constructor({ code, width = 500, onChange, beforeChange, onClick }) {
+  constructor() {
     super();
-    this.state = { code, width, onChange, beforeChange, onClick };
   }
 
   componentDidMount() {
-    this.onChange(this.state.code);
+    this.onChange(this.props.code);
   }
 
   onChange = code => {
     try {
-      const func = new Function('THREE', code);
+      const argNames = ['THREE', ...Object.keys(this.props.args)];
+      const argValues = [THREE, ...Object.values(this.props.args)];
+      const func = new Function(...argNames, code);
       this.props.beforeChange();
-      const returnValue = func.bind(this)(THREE);
+      const returnValue = func.bind(this)(...argValues);
       this.props.onChange(returnValue);
     }
     catch (e) {
@@ -36,12 +37,14 @@ class CodeView extends Component {
               className='ace-editor'
               mode='javascript'
               theme='github'
-              width={`${this.state.width}px`}
+              fontSize={this.props.fontSize}
+              width={`${this.props.width}px`}
               onChange={this.onChange}
-              value={this.state.code}
+              value={this.props.code}
+              readOnly={this.props.readOnly}
               editorProps={{$blockScrolling: true}}
           />
-          <div onClick={this.state.onClick} className='code-view'></div>
+          <div onClick={this.props.onClick} className='code-view'></div>
         </div>
     );
   }
@@ -51,6 +54,9 @@ class CodeView extends Component {
 CodeView.defaultProps = {
   code: '',
   width: 500,
+  readOnly: false,
+  args: {},
+  fontSize: 12,
   onChange: () => {},
   beforeChange: () => {},
   onClick: () => {},

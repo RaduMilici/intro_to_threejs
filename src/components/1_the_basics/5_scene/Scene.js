@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { App3D } from '../../3D';
+import { App3D } from '../../../3D/index';
 import { Scene } from 'three';
-import SceneView from '../SceneView/SceneView';
-import Card from '../Card/Card';
-import CodeView from '../CodeView/CodeView';
+import SceneView from '../../SceneView/SceneView';
+import Card from '../../Card/Card';
+import CodeView from '../../CodeView/CodeView';
 import * as THREE from 'three';
 import OrbitControlsImport from 'three-orbit-controls';
-import Helpers from '../../3D/Helpers';
+import Helpers from '../../../3D/Helpers';
 const OrbitControls = OrbitControlsImport(THREE);
 
 class _Scene extends Component {

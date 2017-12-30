@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import SceneView from '../SceneView/SceneView';
-import Card from '../Card/Card';
-import CodeView from '../CodeView/CodeView';
+import SceneView from '../../SceneView/SceneView';
+import Card from '../../Card/Card';
+import CodeView from '../../CodeView/CodeView';
 
 class Renderer extends Component {
   constructor() {
@@ -44,6 +44,7 @@ renderer.clear();
             <h2>Renderer</h2>
             <CodeView
                 code={this.state.code}
+                fontSize={13}
                 beforeChange={this.beforeChange}
             />
           </Card>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import SceneView from '../SceneView/SceneView';
-import Card from '../Card/Card';
-import { App3D } from '../../3D';
+import SceneView from '../../SceneView/SceneView';
+import Card from '../../Card/Card';
+import { App3D } from '../../../3D/index';
 import { BoxBufferGeometry, MeshBasicMaterial, Mesh } from 'three';
 import Stats from 'stats.js';
 import './FrameRate.css';

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import SceneView from '../SceneView/SceneView';
+import SceneView from '../../SceneView/SceneView';
 import IntroText from './IntroText';
-import WireframePlane from '../../3D/WireframePlane';
+import WireframePlane from '../../../3D/WireframePlane';
 import Particles from './Particles';
-import { App3D } from '../../3D';
+import { App3D } from '../../../3D/index';
 
 class Welcome extends Component {
   componentDidMount() {

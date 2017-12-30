@@ -1,4 +1,4 @@
-import fontData from '../../fonts/Roboto_Regular.json';
+import fontData from '../../../fonts/Roboto_Regular.json';
 import { FontLoader, Mesh, TextGeometry, MeshPhongMaterial, DirectionalLight, Object3D } from 'three';
 
 class IntroText extends Object3D {

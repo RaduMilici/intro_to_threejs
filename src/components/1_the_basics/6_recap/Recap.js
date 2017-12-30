@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import SceneView from '../SceneView/SceneView';
-import Card from '../Card/Card';
-import './Recap.css';
+import SceneView from '../../SceneView/SceneView';
+import Card from '../../Card/Card';
 
 class Recap extends Component {
   render() {

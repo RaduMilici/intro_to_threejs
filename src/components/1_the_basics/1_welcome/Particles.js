@@ -1,5 +1,5 @@
 import { Geometry, ShaderMaterial, AdditiveBlending, Points, Color, Object3D } from 'three';
-import { util, random } from '../../util';
+import { util, random } from '../../../util';
 
 class Particles extends Object3D {
   constructor(updater) {

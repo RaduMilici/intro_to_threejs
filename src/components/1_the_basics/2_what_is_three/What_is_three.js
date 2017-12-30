@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import SceneView from '../SceneView/SceneView';
-import Card from '../Card/Card';
+import SceneView from '../../SceneView/SceneView';
+import Card from '../../Card/Card';
 
 class WhatIsThree extends Component {
   render() {
