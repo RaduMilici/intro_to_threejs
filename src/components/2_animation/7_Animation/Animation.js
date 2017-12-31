@@ -11,7 +11,7 @@ class Animation extends Component {
           <Card>
             <h2>2. Animation</h2>
             <Quote
-              text='Computers don&#39;t create computer animation any more than a pencil creates pencil animation. What creates computer animation is the artist.'
+              text='Computers don&#39;t create computer animation any more than a pencil creates pencil animation.'
               author='John Alan Lasseter - chief creative officer of Pixar Animation Studios'
             />
           </Card>

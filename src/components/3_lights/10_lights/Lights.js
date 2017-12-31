@@ -10,8 +10,8 @@ const Lights = () => {
         <Card>
           <h2>3. Lights</h2>
           <Quote
-              text='Turn your face to the sun and the shadows fall behind you.'
-              author='Maori proverb'
+              text='The light at the end of the tunnel is just the light of an oncoming train.'
+              author='Robert Lowell - american poet'
           />
         </Card>
       </div>

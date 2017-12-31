@@ -40,7 +40,7 @@ return directionalLight;
   }
 
   makeObjects() {
-    const earthGeom = new SphereBufferGeometry( 5, 8, 8 );
+    const earthGeom = new SphereBufferGeometry( 5, 16, 16 );
     const earthMat = new MeshPhongMaterial({ color: 0x0000ff, shininess: 100 });
     const earth = new Mesh( earthGeom, earthMat );
 
