@@ -5,7 +5,7 @@ import { TorusKnotBufferGeometry, MeshPhongMaterial, Mesh, SpotLightHelper,
   PlaneBufferGeometry } from 'three';
 import spotlight from '../../../img/spotlight.jpg';
 import * as THREE from 'three';
-import DatGui, { DatBoolean, DatButton, DatNumber, DatString, DatColor } from 'react-dat-gui';
+import DatGui, { DatBoolean, DatButton, DatNumber, DatString, DatColor, DatFolder } from 'react-dat-gui';
 import OrbitControlsImport from 'three-orbit-controls';
 import 'react-dat-gui/build/react-dat-gui.css';
 
@@ -22,15 +22,18 @@ class _DirectionalLight extends Component {
         plane: null,
       },
       uiData: {
+        color: '0xffffff',
+        intensity: 1,
+        distance: 30,
+        angle: 0.45,
         package: 'react-dat-gui',
         power: 9000,
         isAwesome: true,
-        feelsLike: '#2FA1D6',
       },
       code:
 `// light
 const spotLight = new THREE.SpotLight(0xffffff);
-spotLight.position.set(-3, 7, 0);
+spotLight.position.set(-8, 12, 0);
 // shadow
 renderer.shadowMap.enabled = true;
 spotLight.castShadow = true;
@@ -49,19 +52,19 @@ return spotLight;
   }
 
   makePlane() {
-    const geometry = new PlaneBufferGeometry( 20, 20 );
+    const geometry = new PlaneBufferGeometry( 50, 50 );
     const material = new MeshPhongMaterial({ color: 0xffff00, side: THREE.DoubleSide });
     const plane = new THREE.Mesh(geometry, material);
     plane.rotation.x += Math.PI / 2;
-    plane.position.y = -5;
     return plane;
   }
 
   makeObjects() {
     const plane = this.makePlane();
-    const geometry = new TorusKnotBufferGeometry( 3, 0.5, 100, 16 );
+    const geometry = new TorusKnotBufferGeometry( 2, 0.3, 100, 16 );
     const material = new MeshPhongMaterial({ color: 0x0000ff, shininess: 100 });
     const torusKnot = new Mesh( geometry, material );
+    torusKnot.position.y = 3;
     plane.add(torusKnot);
     this.app3d.updater.add(() => {
       torusKnot.rotation.y += 0.01;
@@ -82,7 +85,7 @@ return spotLight;
 
   componentDidMount() {
     this.app3d = new App3D('.code-view');
-    this.app3d.camera.position.set(0, 5, 15);
+    this.app3d.camera.position.set(0, 15, 15);
     this.app3d.camera.lookAt(0, 0, 0);
     const objects = this.makeObjects();
     this.setEditorArgs(objects, this.state.code, () => {
@@ -92,28 +95,44 @@ return spotLight;
     this.app3d.updater.start();
   }
 
+  beforeChange = () => {
+    this.app3d.disposeHierarchy();
+  }
+
   onChange = (spotLight, code) => {
     this.app3d.disposeHierarchy();
     const objects = this.makeObjects();
     this.app3d.scene.add(objects.plane, objects.torusKnot);
-    const helper = new SpotLightHelper(spotLight);
-    this.app3d.scene.add(helper);
-    this.setEditorArgs(objects, code, () => { this.codeView.execute(code) });
+    this.setEditorArgs(objects, code, () => {
+      this.spotLight = this.codeView.execute(code);
+      this.spotLightHelper = new SpotLightHelper(this.spotLight);
+      this.app3d.scene.add(this.spotLightHelper);
+      this.updateLight(this.state.uiData);
+    });
   }
 
-  update = uiData => {
-    console.log(uiData)
+  updateLight = uiData => {
+    console.log(uiData.color)
+    this.spotLight.color.setHex( uiData.color );
+    this.spotLight.intensity = uiData.intensity;
+    this.spotLight.distance = uiData.distance;
+    this.spotLight.angle = uiData.angle;
+    this.spotLightHelper.update();
     this.setState({ uiData });
   }
 
   render() {
     return (
-        <div>
+        <div style={{'position': 'relative'}}>
           <img width='550' height='250' style={{'position': 'absolute'}} src={spotlight}/>
-          <DatGui data={this.state.uiData} onUpdate={this.update}>
-            <DatNumber path='power' label='Power' min={9000} max={9999} step={1} />
-            <DatBoolean path='isAwesome' label='Awesome?' />
-            <DatColor path='feelsLike' label='Feels Like' />
+          <DatGui style={{'left': '275px'}} data={this.state.uiData} onUpdate={this.updateLight} className='demo-dat-gui'>
+            <DatFolder title='settings' children={[
+              <DatColor path='color' label='color' />,
+              <DatNumber path='intensity' label='intensity' min={0} max={3} step={0.1} />,
+              <DatNumber path='distance' label='distance' min={0} max={50} step={0.1} />,
+              <DatNumber path='angle' label='angle' min={0} max={1} step={0.01} />,
+              <DatColor path='feelsLike' label='Feels Like' />,
+            ]}/>
           </DatGui>
           <CodeView
               ref={instance => { this.codeView = instance; }}

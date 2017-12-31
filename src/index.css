@@ -8,3 +8,10 @@ body {
 code {
     color: darkgray;
 }
+
+.react-dat-gui.demo-dat-gui {
+    position: absolute;
+    top: initial;
+    z-index: 1;
+    right: 0;
+}
