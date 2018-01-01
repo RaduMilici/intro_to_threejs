@@ -15,7 +15,8 @@ import AnimationInAction from './2_animation/9_RequestAnimationFrame/AnimationIn
 import RequestAnimationFrame from './2_animation/9_RequestAnimationFrame/RequestAnimationFrame';
 import Lights from './3_lights/10_lights/Lights';
 import LightTypes from './3_lights/11_light_types/LightTypes';
+import LightsRecap from './3_lights/12_recap/Recap';
 
 export { Welcome, WhatIsThree, GpuVsCpu, Basics, Renderer, Camera, Scene, Recap,
   BasicsInAction, Animation, AnimationFrames, AnimationLoop, FrameRate,
-  AnimationInAction, RequestAnimationFrame, Lights, LightTypes };
+  AnimationInAction, RequestAnimationFrame, Lights, LightTypes, LightsRecap };
