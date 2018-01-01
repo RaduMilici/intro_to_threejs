@@ -3,7 +3,7 @@ import CodeView from '../../CodeView/CodeView';
 import { App3D, util } from '../../../3D';
 import DatGui, { DatNumber, DatFolder } from 'react-dat-gui';
 import spotlight from '../../../img/light_bub.jpg';
-import { BackSide, MeshPhongMaterial, PointLightHelper, Geometry, Mesh } from 'three';
+import { BackSide, MeshPhongMaterial, MeshLambertMaterial, PointLightHelper, Geometry, Mesh, AmbientLight } from 'three';
 
 class PointLight extends Component {
   constructor() {
@@ -54,8 +54,7 @@ return pointLight;
       boxGeom.translate(p.x, p.y, p.z);
       mergedGeom.merge(boxGeom);
     });
-    const orbiter = new Mesh(mergedGeom,
-        new MeshPhongMaterial({ color: 0x52d3fa, emissive: 0x333333 }));
+    const orbiter = new Mesh(mergedGeom, new MeshLambertMaterial({ color: 0x52d3fa }));
     this.app3d.updater.add((timestamp, delta) => {
       orbiter.rotation.x += 1 * delta;
       orbiter.rotation.y += 1 * delta;
@@ -93,8 +92,9 @@ return pointLight;
   onCodeChange = (pointLight, code) => {
     this.app3d.disposeHierarchy();
     const pointLightHelper = new PointLightHelper(pointLight, 1, 0x000000);
+    const ambient = new AmbientLight(0x333333);
     const { room, orbiter } = this.makeEnvironment();
-    this.app3d.scene.add(pointLight, room, orbiter, pointLightHelper);
+    this.app3d.scene.add(pointLight, room, orbiter, pointLightHelper, ambient);
     this.setEditorArgs({ room, orbiter }, code, () => { this.codeView.execute(code) });
   }
 

@@ -16,7 +16,7 @@ class _DirectionalLight extends Component {
       },
       code:
 `// light
-const directionalLight = new THREE.DirectionalLight(0xffffff, 1.0);
+const directionalLight = new THREE.DirectionalLight(0xffffff, 2.0);
 directionalLight.position.set(-10, 5, 0);
 // shadow
 renderer.shadowMap.enabled = true;
