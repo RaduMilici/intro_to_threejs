@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b508b57a-0de7-44e2-a02b-88a876adb39a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/3D/App.js" afterPath="$PROJECT_DIR$/src/3D/App.js" />
       <change beforePath="$PROJECT_DIR$/src/components/3_lights/11_light_types/DirectionalLight.js" afterPath="$PROJECT_DIR$/src/components/3_lights/11_light_types/DirectionalLight.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/3_lights/11_light_types/LightTypes.js" afterPath="$PROJECT_DIR$/src/components/3_lights/11_light_types/LightTypes.js" />
       <change beforePath="$PROJECT_DIR$/src/components/3_lights/11_light_types/PointLight.js" afterPath="$PROJECT_DIR$/src/components/3_lights/11_light_types/PointLight.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/3_lights/11_light_types/SpotLight.js" afterPath="$PROJECT_DIR$/src/components/3_lights/11_light_types/SpotLight.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SpotLight.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SpotLight.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/3_lights/11_light_types/SpotLight.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="46" column="64" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="64" />
+            <state relative-caret-position="376">
+              <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -31,11 +32,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PointLight.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/3D/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PointLight.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/3_lights/11_light_types/PointLight.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="57" column="50" lean-forward="true" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
+            <state relative-caret-position="440">
+              <caret line="20" column="20" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="20" selection-end-column="20" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -46,8 +57,8 @@
       <file leaf-file-name="DirectionalLight.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/3_lights/11_light_types/DirectionalLight.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-879">
-              <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+            <state relative-caret-position="418">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -213,18 +224,18 @@
         <option value="$PROJECT_DIR$/src/components/2_animation/7_Animation/AnimationLoop.js" />
         <option value="$PROJECT_DIR$/src/components/3_lights/10_lights/LightTypes.js" />
         <option value="$PROJECT_DIR$/src/components/index.js" />
-        <option value="$PROJECT_DIR$/src/3D/App.js" />
         <option value="$PROJECT_DIR$/src/components/CodeView/CodeView.js" />
         <option value="$PROJECT_DIR$/src/components/3_lights/10_lights/Lights.js" />
         <option value="$PROJECT_DIR$/src/components/2_animation/7_Animation/Animation.js" />
         <option value="$PROJECT_DIR$/src/components/2_animation/7_Animation/AnimationFrames.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/3D/index.js" />
-        <option value="$PROJECT_DIR$/src/components/3_lights/11_light_types/SpotLight.js" />
         <option value="$PROJECT_DIR$/src/3D/util.js" />
         <option value="$PROJECT_DIR$/src/components/3_lights/11_light_types/LightTypes.js" />
-        <option value="$PROJECT_DIR$/src/components/3_lights/11_light_types/DirectionalLight.js" />
+        <option value="$PROJECT_DIR$/src/3D/App.js" />
         <option value="$PROJECT_DIR$/src/components/3_lights/11_light_types/PointLight.js" />
+        <option value="$PROJECT_DIR$/src/components/3_lights/11_light_types/DirectionalLight.js" />
+        <option value="$PROJECT_DIR$/src/components/3_lights/11_light_types/SpotLight.js" />
       </list>
     </option>
   </component>
@@ -415,12 +426,12 @@
       <workItem from="1514482076861" duration="4015000" />
       <workItem from="1514487355014" duration="12771000" />
       <workItem from="1514644204359" duration="15554000" />
-      <workItem from="1514667598936" duration="21653000" />
+      <workItem from="1514667598936" duration="22050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130710000" />
+    <option name="totallyTimeSpent" value="131107000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -698,14 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/3D/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame/RequestAnimationFrame.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -814,16 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/3_lights/11_light_types/SpotLight.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="46" column="64" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/3D/util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
@@ -844,10 +837,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/3D/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/3_lights/11_light_types/DirectionalLight.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-879">
-          <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+        <state relative-caret-position="418">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="19" selection-end-column="20" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -856,8 +857,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/3_lights/11_light_types/PointLight.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="57" column="50" lean-forward="true" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
+        <state relative-caret-position="440">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/3_lights/11_light_types/SpotLight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

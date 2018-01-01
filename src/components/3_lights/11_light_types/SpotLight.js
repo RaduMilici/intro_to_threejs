@@ -24,7 +24,9 @@ class DirectionalLight extends Component {
       },
       code:
 `// light
-const spotLight = new THREE.SpotLight(0xffffff, 2);
+const color = 0xffffff;
+const intensity = 2;
+const spotLight = new THREE.SpotLight(color, intensity);
 spotLight.position.set(-8, 12, 0);
 // shadow
 renderer.shadowMap.enabled = true;
