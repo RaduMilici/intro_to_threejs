@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
 import CodeView from '../../CodeView/CodeView';
-import { App3D } from '../../../3D';
-import { SphereBufferGeometry, MeshPhongMaterial, Mesh, DirectionalLightHelper } from 'three';
+import { App3D, util } from '../../../3D';
+import { MeshPhongMaterial, DirectionalLightHelper } from 'three';
 import earth_space from '../../../img/earth_space.jpg';
-import * as THREE from 'three';
-import OrbitControlsImport from 'three-orbit-controls';
-
-const OrbitControls = OrbitControlsImport(THREE);
 
 class _DirectionalLight extends Component {
   constructor() {
@@ -34,22 +30,15 @@ return directionalLight;
     }
   }
 
-  addControls() {
-    this.controls = new OrbitControls(this.app3d.camera, this.app3d.container);
-    this.app3d.updater.add(this.controls.update);
-  }
-
   makeObjects() {
-    const earthGeom = new SphereBufferGeometry( 5, 16, 16 );
-    const earthMat = new MeshPhongMaterial({ color: 0x0000ff, shininess: 100 });
-    const earth = new Mesh( earthGeom, earthMat );
+    const earth = util.makeSphere(5, 16, 16);
+    earth.material = new MeshPhongMaterial({ color: 0x0000ff, shininess: 100 });
 
-    const moonGeom = new SphereBufferGeometry( 1, 8, 8 );
-    const moonMat = new MeshPhongMaterial({ color: 0xaaaaaa });
-    const moon = new Mesh(moonGeom, moonMat);
+    const moon = util.makeSphere(1, 8, 8);
+    moon.material = new MeshPhongMaterial({ color: 0xaaaaaa });
     moon.position.x = 8;
-    earth.add(moon);
 
+    earth.add(moon);
     this.app3d.updater.add(() => { earth.rotation.y += 0.03; });
 
     return { earth, moon };
@@ -67,17 +56,17 @@ return directionalLight;
 
   componentDidMount() {
     this.app3d = new App3D('.code-view');
-    this.app3d.camera.position.set(0, 0, 15);
+    this.app3d.camera.position.set(0, 0, 20);
     const objects = this.makeObjects();
     this.app3d.scene.add(objects.earth);
     this.setEditorArgs(objects, this.state.code, () => {
       this.codeView.onChange(this.state.code);
     });
-    this.addControls();
+    util.addControls(this.app3d);
     this.app3d.updater.start();
   }
 
-  onChange = (directionalLight, code) => {
+  onCodeChange = (directionalLight, code) => {
     this.app3d.disposeHierarchy();
     this.app3d.updater.clear();
     const helper = new DirectionalLightHelper( directionalLight, 5 );
@@ -93,7 +82,7 @@ return directionalLight;
           <CodeView
               ref={instance => {this.codeView = instance;}}
               code={this.state.code}
-              onChange={this.onChange}
+              onChange={this.onCodeChange}
               width='550'
               height='250'
               args={this.state.editorArgs}
