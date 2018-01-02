@@ -14,6 +14,10 @@ class CodeView extends Component {
     this.onChange(this.props.code);
   }
 
+  componentDidUpdate() {
+    // this.onChange(this.props.code);
+  }
+
   execute(code) {
     const argNames = ['THREE', ...Object.keys(this.props.args)];
     const argValues = [THREE, ...Object.values(this.props.args)];

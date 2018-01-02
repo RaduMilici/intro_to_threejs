@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import {
   PlaneBufferGeometry, TorusKnotBufferGeometry, SphereBufferGeometry,
-  BoxBufferGeometry, BoxGeometry, Mesh
+  BoxBufferGeometry, BoxGeometry, Mesh, TextureLoader,
 } from 'three';
 import OrbitControlsImport from 'three-orbit-controls';
 const OrbitControls = OrbitControlsImport(THREE);
@@ -33,6 +33,10 @@ const util = {
   },
   makeBoxGeom(width, height, depth) {
     return new BoxGeometry(width, height, depth);
+  },
+  loadTexture(url, callback) {
+    const loader = new TextureLoader();
+    loader.load(url, callback);
   }
 }
 

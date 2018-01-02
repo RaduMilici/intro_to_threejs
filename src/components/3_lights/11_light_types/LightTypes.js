@@ -17,12 +17,12 @@ class LightTypes extends Component {
         <div>
           <SceneView/>
           <Card>
-            <h2>Light Types</h2>
+            <h2>Light types</h2>
             <Tabs>
               <TabList>
                 <Tab>Directional light</Tab>
-                <Tab>Spot Light</Tab>
-                <Tab>Point Light</Tab>
+                <Tab>Spot light</Tab>
+                <Tab>Point light</Tab>
               </TabList>
 
               <TabPanel>

@@ -10,15 +10,18 @@ class LightsRecap extends Component {
           <Card>
             <h2>Lights recap</h2>
             <ol>
-              <li>Set mesh material.
+              <li>
+                Choose a material that is affected by lights.
                 <br/>
                 <code>new THREE.MeshLambertMaterial();</code>
                 <br/>
                 <code>new THREE.MeshPhongMaterial();</code>
+                <br/>
+                <code>new THREE.MeshStandardMaterial();</code>
               </li>
 
               <li>
-                Create one or more lights.
+                Create a light.
                 <br/>
                 <code>const light = new THREE.SpotLight();</code>
               </li>

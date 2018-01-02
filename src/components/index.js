@@ -16,7 +16,12 @@ import RequestAnimationFrame from './2_animation/9_RequestAnimationFrame/Request
 import Lights from './3_lights/10_lights/Lights';
 import LightTypes from './3_lights/11_light_types/LightTypes';
 import LightsRecap from './3_lights/12_recap/Recap';
+import Maps from './4_maps/13_maps/Maps';
+import TextureMapping from './4_maps/13_maps/TextureMapping';
+import MapTypes from './4_maps/14_map_types/MapTypes';
 
 export { Welcome, WhatIsThree, GpuVsCpu, Basics, Renderer, Camera, Scene, Recap,
   BasicsInAction, Animation, AnimationFrames, AnimationLoop, FrameRate,
-  AnimationInAction, RequestAnimationFrame, Lights, LightTypes, LightsRecap };
+  AnimationInAction, RequestAnimationFrame, Lights, LightTypes, LightsRecap,
+  Maps, TextureMapping, MapTypes
+};
