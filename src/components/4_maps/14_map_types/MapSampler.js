@@ -29,7 +29,7 @@ class DiffuseMap extends Component {
       light.position.y = 5 * Math.sin(-timestamp * 0.0005);
     })
 
-    const wall = util.makePlane(10, 10);
+    const wall = util.makePlane(10, 10, 100, 100);
     wall.material = new MeshStandardMaterial();
     this.app3d.scene.add(light, wall);
     return { light, wall };
@@ -37,7 +37,7 @@ class DiffuseMap extends Component {
 
   componentDidMount() {
     this.app3d = new App3D('.code-view');
-    this.app3d.camera.position.set(0, 0, 5);
+    this.app3d.camera.position.set(0, 0, 6);
     util.addControls(this.app3d);
     const { wall } = this.makeEnvironment();
     this.setEditorArgs(wall, this.state.code, () => {

@@ -12,8 +12,8 @@ const util = {
     app3d.updater.add(controls.update);
     return controls;
   },
-  makePlane(width, height) {
-    const geometry = new PlaneBufferGeometry(width, height);
+  makePlane(width, height, widthSegments = 1, heightSegments = 1) {
+    const geometry = new PlaneBufferGeometry(width, height, widthSegments, heightSegments);
     return new Mesh(geometry);
   },
   makeTorusKnot(radius, tube, tubularSegments, radialSegments) {

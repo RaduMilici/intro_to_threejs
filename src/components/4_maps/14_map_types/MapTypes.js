@@ -6,7 +6,7 @@ import MapSampler from './MapSampler';
 import 'react-tabs/style/react-tabs.css';
 import diffuseMapUrl from '../../../textures/brick/bricks_1024_albedo.jpg';
 import normalMapUrl from '../../../textures/brick/bricks_1024_normal.jpg';
-import roughnessMapUrl from '../../../textures/brick/bricks_1024_roughness.jpg';
+import heightMapUrl from '../../../textures/brick/bricks_1024_height.jpg';
 
 class LightTypes extends Component {
   constructor() {
@@ -23,14 +23,23 @@ class LightTypes extends Component {
   wall.material.normalScale = { x: 3, y: 3 };
   wall.material.needsUpdate = true;
 });`
-    const combinedMapCode = diffuseMapCode + normalMapCode;
+    const displacementMapCode =
+`loader.load(mapUrls.displacement, map => {
+  wall.material.displacementMap = map;
+  wall.material.displacementScale = 2;
+  //wall.material.wireframe = true;
+  wall.material.needsUpdate = true;
+});`
 
     this.state = {
       diffuseMapCode: `${loaderCode}\n\n${diffuseMapCode}`,
       normalMapCode: `${loaderCode}\n\n${normalMapCode}`,
-      combinedMapCode: `${loaderCode}\n\n${diffuseMapCode}\n\n${normalMapCode}`,
+      displacementMapCode: `${loaderCode}\n\n${displacementMapCode}`,
+      combinedMapCode: `${loaderCode}\n\n${diffuseMapCode}\n\n${normalMapCode}\n\n${displacementMapCode}`,
       diffuseMapUrl,
-      normalMapUrl };
+      normalMapUrl,
+      heightMapUrl,
+    };
   }
   render() {
     return (
@@ -42,6 +51,7 @@ class LightTypes extends Component {
               <TabList>
                 <Tab>Diffuse map</Tab>
                 <Tab>Normal map</Tab>
+                <Tab>Displacement map</Tab>
                 <Tab>All maps</Tab>
               </TabList>
 
@@ -59,10 +69,17 @@ class LightTypes extends Component {
               </TabPanel>
               <TabPanel>
                 <MapSampler
+                    code={this.state.displacementMapCode}
+                    mapUrls={{displacement: this.state.heightMapUrl}}
+                />
+              </TabPanel>
+              <TabPanel>
+                <MapSampler
                     code={this.state.combinedMapCode}
                     mapUrls={{
                       diffuse: this.state.diffuseMapUrl,
-                      normal: this.state.normalMapUrl
+                      normal: this.state.normalMapUrl,
+                      displacement: this.state.heightMapUrl,
                     }}
                 />
               </TabPanel>
