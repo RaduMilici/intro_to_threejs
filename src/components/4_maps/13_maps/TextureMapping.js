@@ -34,12 +34,12 @@ class TextureMapping extends Component {
       <div>
         <SceneView/>
         <Card>
-          <div style={{'max-width': '1000px'}}>
+          <div style={{'maxWidth': '1000px'}}>
             <h2>Texture mapping</h2>
             <ul>
               <li>A method for defining detail, surface texture, or color information on a 3D model.</li>
               <li>Originally referred to a method that mapped pixels from a texture to a 3D surface.</li>
-              <li>In recent decades, the advent of many other variations on the technique (controlled by a materials system) have made it possible to simulate near-photorealism in real time.</li>
+              <li>In recent decades, the advent of many other variations on the technique <strong>(controlled by a material system)</strong> have made it possible to simulate near-photorealism in real time.</li>
             </ul>
             <img src={checker} width='500'/>
             <div className='code-view'></div>

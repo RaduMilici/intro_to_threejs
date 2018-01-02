@@ -7,40 +7,38 @@ import 'react-tabs/style/react-tabs.css';
 import diffuseMapUrl from '../../../textures/brick/bricks_1024_albedo.jpg';
 import normalMapUrl from '../../../textures/brick/bricks_1024_normal.jpg';
 import heightMapUrl from '../../../textures/brick/bricks_1024_height.jpg';
+import graffitiMapUrl from '../../../textures/graffit_style.jpg';
+import graffitiAlphaMapUrl from '../../../textures/graffit_style_alpha.jpg';
 
 class LightTypes extends Component {
   constructor() {
     super();
     const loaderCode = 'const loader = new THREE.TextureLoader();';
-    const diffuseMapCode =
-`loader.load(mapUrls.diffuse, map => {
-  wall.material.map = map;
-  wall.material.needsUpdate = true;
-});`
-    const normalMapCode =
-`loader.load(mapUrls.normal, map => {
-  wall.material.normalMap = map;
-  wall.material.normalScale = { x: 3, y: 3 };
-  wall.material.needsUpdate = true;
-});`
-    const displacementMapCode =
-`loader.load(mapUrls.displacement, map => {
-  wall.material.displacementMap = map;
-  wall.material.displacementScale = 2;
-  //wall.material.wireframe = true;
-  wall.material.needsUpdate = true;
-});`
+    const diffuseMapCode = 'wall.material.map = loader.load(mapUrls.diffuse);';
+    const normalMapCode = `wall.material.normalMap = loader.load(mapUrls.normal);
+wall.material.normalScale = { x: 5, y: 5 };`
+    const displacementMapCode = `wall.material.displacementMap = loader.load(mapUrls.displacement);
+wall.material.displacementScale = 2;`;
+    const alphaMapCode = `graffiti.material.map = loader.load(mapUrls.graffiti);
+graffiti.material.alphaMap = loader.load(mapUrls.graffitiAlpha);
+graffiti.material.transparent = true;`
 
     this.state = {
-      diffuseMapCode: `${loaderCode}\n\n${diffuseMapCode}`,
-      normalMapCode: `${loaderCode}\n\n${normalMapCode}`,
-      displacementMapCode: `${loaderCode}\n\n${displacementMapCode}`,
-      combinedMapCode: `${loaderCode}\n\n${diffuseMapCode}\n\n${normalMapCode}\n\n${displacementMapCode}`,
-      diffuseMapUrl,
-      normalMapUrl,
-      heightMapUrl,
+      diffuseMapCode: `${loaderCode}\n${diffuseMapCode}`,
+      normalMapCode: `${loaderCode}\n${normalMapCode}`,
+      displacementMapCode: `${loaderCode}\n${displacementMapCode}\n//wall.material.wireframe = true;`,
+      alphaMapCode: `${loaderCode}\n${alphaMapCode}`,
+      combinedMapCode: `${loaderCode}\n${diffuseMapCode}\n${normalMapCode}\n${displacementMapCode}\n${alphaMapCode}`,
+      mapUrls: {
+        diffuse: diffuseMapUrl,
+        normal: normalMapUrl,
+        displacement: heightMapUrl,
+        graffiti: graffitiMapUrl,
+        graffitiAlpha: graffitiAlphaMapUrl,
+      },
     };
   }
+
   render() {
     return (
         <div>
@@ -49,38 +47,49 @@ class LightTypes extends Component {
             <h2>Map types</h2>
             <Tabs>
               <TabList>
-                <Tab>Diffuse map</Tab>
-                <Tab>Normal map</Tab>
-                <Tab>Displacement map</Tab>
+                <Tab>Diffuse</Tab>
+                <Tab>Normal</Tab>
+                <Tab>Displacement</Tab>
+                <Tab>Alpha</Tab>
                 <Tab>All maps</Tab>
               </TabList>
 
               <TabPanel>
                 <MapSampler
                     code={this.state.diffuseMapCode}
-                    mapUrls={{diffuse: this.state.diffuseMapUrl}}
+                    mapUrls={this.state.mapUrls}
+                    hide={{graffiti: true}}
                 />
               </TabPanel>
+
               <TabPanel>
                 <MapSampler
                     code={this.state.normalMapCode}
-                    mapUrls={{normal: this.state.normalMapUrl}}
+                    mapUrls={this.state.mapUrls}
+                    hide={{graffiti: true}}
                 />
               </TabPanel>
+
               <TabPanel>
                 <MapSampler
                     code={this.state.displacementMapCode}
-                    mapUrls={{displacement: this.state.heightMapUrl}}
+                    mapUrls={this.state.mapUrls}
+                    hide={{graffiti: true}}
                 />
               </TabPanel>
+
+              <TabPanel>
+                <MapSampler
+                    code={this.state.alphaMapCode}
+                    mapUrls={this.state.mapUrls}
+                    hide={{wall: true}}
+                />
+              </TabPanel>
+
               <TabPanel>
                 <MapSampler
                     code={this.state.combinedMapCode}
-                    mapUrls={{
-                      diffuse: this.state.diffuseMapUrl,
-                      normal: this.state.normalMapUrl,
-                      displacement: this.state.heightMapUrl,
-                    }}
+                    mapUrls={this.state.mapUrls}
                 />
               </TabPanel>
             </Tabs>
