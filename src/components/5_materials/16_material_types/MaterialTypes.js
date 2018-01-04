@@ -9,9 +9,7 @@ import battlezone from '../../../img/battlezone.gif';
 import tronLightCycle from '../../../img/tron-lightcycle.gif';
 import gouraudShading from '../../../img/gouraud_shading.jpg';
 import phongShading from '../../../img/phong_shading.jpg';
-import PBR from '../../../img/PBR.jpg';
 import { basicCode, wireframeCode, lambertCode, phongCode } from './materials_editor_code';
-import { WireframeGeometry, LineSegments } from 'three';
 
 
 class MaterialTypes extends Component {
@@ -19,13 +17,6 @@ class MaterialTypes extends Component {
     super();
 
     this.state = { basicCode, wireframeCode, lambertCode, phongCode };
-  }
-
-  addWireframeGeometry(scene, mesh) {
-    const wireframe = new WireframeGeometry(mesh.geometry);
-    const line = new LineSegments(wireframe);
-    line.material.color.setHex(0x14506b);
-    // mesh.add(line);
   }
 
   render() {
@@ -44,12 +35,6 @@ class MaterialTypes extends Component {
               </TabList>
 
               <TabPanel>
-                <PBRSambler
-                    imgUrl={PBR}
-                />
-              </TabPanel>
-
-              <TabPanel>
                 <MaterialSampler
                     code={this.state.wireframeCode}
                     imgUrl={battlezone}
@@ -66,7 +51,6 @@ class MaterialTypes extends Component {
               <TabPanel>
                 <MaterialSampler
                     code={this.state.lambertCode}
-                    callback={this.addWireframeGeometry}
                     imgUrl={gouraudShading}
                 />
               </TabPanel>
@@ -78,6 +62,9 @@ class MaterialTypes extends Component {
                 />
               </TabPanel>
 
+              <TabPanel>
+                <PBRSambler/>
+              </TabPanel>
 
             </Tabs>
           </Card>

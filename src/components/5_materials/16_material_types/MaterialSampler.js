@@ -43,6 +43,10 @@ class MaterialSampler extends Component {
     this.props.callback(this.app3d.scene, mesh);
   }
 
+  componentWillUnmount() {
+    this.app3d.destroyScene();
+  }
+
   render() {
     return (
         <div>

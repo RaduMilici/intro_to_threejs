@@ -46,6 +46,10 @@ class MaterialSampler extends Component {
     this.addLight();
   }
 
+  componentWillUnmount() {
+    this.app3d.destroyScene();
+  }
+
   render() {
     return (
         <div>
