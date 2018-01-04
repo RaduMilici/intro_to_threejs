@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import {
-  PlaneBufferGeometry, TorusKnotBufferGeometry, SphereBufferGeometry,
+  PlaneBufferGeometry, TorusKnotGeometry, SphereGeometry,
   BoxBufferGeometry, BoxGeometry, Mesh, TextureLoader,
 } from 'three';
 import OrbitControlsImport from 'three-orbit-controls';
@@ -17,11 +17,11 @@ const util = {
     return new Mesh(geometry);
   },
   makeTorusKnot(radius, tube, tubularSegments, radialSegments) {
-    const geometry = new TorusKnotBufferGeometry( radius, tube, tubularSegments, radialSegments );
+    const geometry = new TorusKnotGeometry( radius, tube, tubularSegments, radialSegments );
     return new Mesh(geometry);
   },
   makeSphere(radius, widthSegments, heightSegment) {
-    const geometry = new SphereBufferGeometry(radius, widthSegments, heightSegment );
+    const geometry = new SphereGeometry(radius, widthSegments, heightSegment );
     return new Mesh(geometry);
   },
   makeBox(width, height, depth) {

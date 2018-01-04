@@ -4,7 +4,7 @@ import { App3D, util } from '../../../3D';
 import { MeshStandardMaterial, MeshLambertMaterial, PointLight } from 'three';
 
 class MapSampler extends Component {
-  constructor({ code, mapUrls, hide }) {
+  constructor({ code, mapUrls }) {
     super();
     this.state = {
       editorArgs: {
@@ -67,7 +67,14 @@ class MapSampler extends Component {
   render() {
     return (
         <div>
+          {
+            this.props.showPreview ?
+            <img style={{position: 'absolute', 'objectFit': 'cover'}} width='500' height='250'  src={this.props.mapUrls[this.props.previewName]} alt=''/> :
+            null
+          }
+
           <CodeView
+            height={this.props.showPreview ? 250 : 500}
             ref={instance => { this.codeView = instance; }}
             args={this.state.editorArgs}
             code={this.state.code}
@@ -83,6 +90,8 @@ MapSampler.defaultProps = {
   code: '',
   mapUrls: '',
   hide: {},
+  previewName: '',
+  showPreview: true,
 };
 
 export default MapSampler;

@@ -17,10 +17,7 @@ class PointLight extends Component {
       },
       code:
 `// light
-const color = 0x808080;
-const intensity = 1;
-const range = 20;
-const pointLight = new THREE.PointLight(color, intensity, range);
+const pointLight = new THREE.PointLight(0xFCD440, 1, 18);
 // shadow
 renderer.shadowMap.enabled = true;
 pointLight.castShadow = true;

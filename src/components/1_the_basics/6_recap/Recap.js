@@ -36,7 +36,7 @@ class Recap extends Component {
                 <code>
                   const geometry = new THREE.CubeGeometry(5, 5, 5);
                   <br/>
-                  const material = new THREE.MeshBasicMaterial({'{color: 0x00ff00}'});
+                  const material = new THREE.MeshBasicMaterial();
                   <br/>
                   const cube = new THREE.Mesh(geometry, material);
                   <br/>

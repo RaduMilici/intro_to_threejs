@@ -17,22 +17,31 @@ class LightTypes extends Component {
     const diffuseMapCode = 'wall.material.map = loader.load(mapUrls.diffuse);';
     const normalMapCode = `wall.material.normalMap = loader.load(mapUrls.normal);
 wall.material.normalScale = { x: 5, y: 5 };`
-    const displacementMapCode = `wall.material.displacementMap = loader.load(mapUrls.displacement);
+    const displacementMapCode = `wall.material.displacementMap = loader.load(mapUrls.disp);
 wall.material.displacementScale = 2;`;
     const alphaMapCode = `graffiti.material.map = loader.load(mapUrls.graffiti);
 graffiti.material.alphaMap = loader.load(mapUrls.graffitiAlpha);
 graffiti.material.transparent = true;`
 
     this.state = {
-      diffuseMapCode: `${loaderCode}\n${diffuseMapCode}`,
-      normalMapCode: `${loaderCode}\n${normalMapCode}`,
-      displacementMapCode: `${loaderCode}\n${displacementMapCode}\n//wall.material.wireframe = true;`,
-      alphaMapCode: `${loaderCode}\n${alphaMapCode}`,
-      combinedMapCode: `${loaderCode}\n${diffuseMapCode}\n${normalMapCode}\n${displacementMapCode}\n${alphaMapCode}`,
+      diffuseMapCode: `${loaderCode}\n${diffuseMapCode}\n`,
+      normalMapCode: `${loaderCode}\n${normalMapCode}\n`,
+      displacementMapCode: `${loaderCode}\n${displacementMapCode}\n//wall.material.wireframe = true;\n`,
+      alphaMapCode: `${loaderCode}\n${alphaMapCode}\n`,
+      combinedMapCode:
+`${loaderCode}
+// diffuse
+${diffuseMapCode}
+// normal
+${normalMapCode}
+// displacement
+${displacementMapCode}
+// alpha
+${alphaMapCode}\n`,
       mapUrls: {
         diffuse: diffuseMapUrl,
         normal: normalMapUrl,
-        displacement: heightMapUrl,
+        disp: heightMapUrl,
         graffiti: graffitiMapUrl,
         graffitiAlpha: graffitiAlphaMapUrl,
       },
@@ -58,6 +67,7 @@ graffiti.material.transparent = true;`
                 <MapSampler
                     code={this.state.diffuseMapCode}
                     mapUrls={this.state.mapUrls}
+                    previewName='diffuse'
                     hide={{graffiti: true}}
                 />
               </TabPanel>
@@ -66,6 +76,7 @@ graffiti.material.transparent = true;`
                 <MapSampler
                     code={this.state.normalMapCode}
                     mapUrls={this.state.mapUrls}
+                    previewName='normal'
                     hide={{graffiti: true}}
                 />
               </TabPanel>
@@ -74,6 +85,7 @@ graffiti.material.transparent = true;`
                 <MapSampler
                     code={this.state.displacementMapCode}
                     mapUrls={this.state.mapUrls}
+                    previewName='disp'
                     hide={{graffiti: true}}
                 />
               </TabPanel>
@@ -82,12 +94,14 @@ graffiti.material.transparent = true;`
                 <MapSampler
                     code={this.state.alphaMapCode}
                     mapUrls={this.state.mapUrls}
+                    previewName='graffitiAlpha'
                     hide={{wall: true}}
                 />
               </TabPanel>
 
               <TabPanel>
                 <MapSampler
+                    showPreview={false}
                     code={this.state.combinedMapCode}
                     mapUrls={this.state.mapUrls}
                 />

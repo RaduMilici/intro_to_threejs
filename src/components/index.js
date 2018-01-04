@@ -19,9 +19,12 @@ import LightsRecap from './3_lights/12_recap/Recap';
 import Maps from './4_maps/13_maps/Maps';
 import TextureMapping from './4_maps/13_maps/TextureMapping';
 import MapTypes from './4_maps/14_map_types/MapTypes';
+import Materials from './5_materials/15_materials/Materials';
+import MaterialSystem from './5_materials/15_materials/MaterialSystem';
+import MaterialTypes from './5_materials/16_material_types/MaterialTypes';
 
 export { Welcome, WhatIsThree, GpuVsCpu, Basics, Renderer, Camera, Scene, Recap,
   BasicsInAction, Animation, AnimationFrames, AnimationLoop, FrameRate,
   AnimationInAction, RequestAnimationFrame, Lights, LightTypes, LightsRecap,
-  Maps, TextureMapping, MapTypes
+  Maps, TextureMapping, MapTypes, Materials, MaterialSystem, MaterialTypes,
 };

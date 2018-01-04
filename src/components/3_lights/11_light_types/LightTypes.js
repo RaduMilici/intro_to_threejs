@@ -20,9 +20,9 @@ class LightTypes extends Component {
             <h2>Light types</h2>
             <Tabs>
               <TabList>
-                <Tab>Directional light</Tab>
-                <Tab>Spot light</Tab>
-                <Tab>Point light</Tab>
+                <Tab>Directional and Ambient</Tab>
+                <Tab>Spot</Tab>
+                <Tab>Point</Tab>
               </TabList>
 
               <TabPanel>

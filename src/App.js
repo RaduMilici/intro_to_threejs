@@ -17,7 +17,7 @@ class App extends Component {
   }
 
   addKeyPress() {
-    document.onkeydown = (e) => {
+    document.onkeydown = e => {
       let currentIndex = this.state.currentIndex;
       if(e.keyCode === 37) {
         currentIndex--;
@@ -35,8 +35,25 @@ class App extends Component {
     }
   }
 
+  makeSlideOptions() {
+    return Object.keys(slideClasses).map((name, i) => {
+      return <option key={name} value={i}>{`${i + 1}. ${name}`}</option>;
+    });
+  }
+
   render() {
-    return this.state.slides[this.state.currentIndex];
+    return (
+        <div>
+        <select
+            className='slide-select'
+            onChange={e => this.changeSlide(e.target.value)}
+            value={this.state.currentIndex}
+        >
+          {this.makeSlideOptions()}
+        </select>
+          {this.state.slides[this.state.currentIndex]}
+        </div>
+    );
   }
 }
 

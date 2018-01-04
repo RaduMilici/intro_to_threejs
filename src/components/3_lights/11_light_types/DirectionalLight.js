@@ -15,11 +15,11 @@ class _DirectionalLight extends Component {
         'renderer': null,
       },
       code:
-`// light
-const color = 0xffffff;
-const intensity = 2;
-const directionalLight = new THREE.DirectionalLight(color, intensity);
+`// directional
+const directionalLight = new THREE.DirectionalLight(0xffffff, 2);
 directionalLight.position.set(-10, 5, 0);
+// ambient
+const ambientLight = new THREE.AmbientLight(0x404040);
 // shadow
 renderer.shadowMap.enabled = true;
 directionalLight.castShadow = true;
@@ -27,8 +27,8 @@ earth.castShadow = true;
 moon.receiveShadow = true;
 
 scene.add(directionalLight);
-return directionalLight;
-`
+scene.add(ambientLight);
+return directionalLight;`
     }
   }
 
