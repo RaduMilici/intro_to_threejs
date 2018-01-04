@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b508b57a-0de7-44e2-a02b-88a876adb39a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/obj_loader.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/3D/App.js" afterPath="$PROJECT_DIR$/src/3D/App.js" />
       <change beforePath="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/PBRSampler.js" afterPath="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/PBRSampler.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/texture_cube.js" afterPath="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/texture_cube.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/obj_loader.js" afterPath="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/obj_loader.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/HDRCubeTextureLoader.js" afterPath="$PROJECT_DIR$/src/lib/HDRCubeTextureLoader.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +23,8 @@
       <file leaf-file-name="PBRSampler.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/PBRSampler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="435">
+              <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -31,11 +32,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/3D/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/3D/util.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="obj_loader.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/obj_loader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="464">
+              <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -43,12 +64,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/three-obj-loader/dist/index.js">
+      <file leaf-file-name="HDRCubeTextureLoader.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/HDRCubeTextureLoader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="486">
+              <caret line="106" column="65" lean-forward="false" selection-start-line="106" selection-start-column="65" selection-end-line="106" selection-end-column="65" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,8 +79,8 @@
       <file leaf-file-name="texture_cube.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/texture_cube.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="62" lean-forward="true" selection-start-line="0" selection-start-column="42" selection-end-line="1" selection-end-column="62" />
+            <state relative-caret-position="132">
+              <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -97,23 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Camera.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/1_the_basics/4_camera/Camera.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="49" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CodeView.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/CodeView/CodeView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+            <state relative-caret-position="549">
+              <caret line="55" column="72" lean-forward="true" selection-start-line="54" selection-start-column="12" selection-end-line="55" selection-end-column="72" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -133,10 +144,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>state</find>
-      <find>color: dar</find>
-      <find>OrbitControls</find>
-      <find>moon</find>
       <find>controls</find>
       <find>SpotLightHelper</find>
       <find>codeView</find>
@@ -163,6 +170,10 @@
       <find>three.pm</find>
       <find>sourceTexture</find>
       <find>three.PMREMCubeUVPacker</find>
+      <find>manager</find>
+      <find>mage</find>
+      <find>.mana</find>
+      <find>addLight</find>
     </findStrings>
     <replaceStrings>
       <replace>RGBELoader</replace>
@@ -193,7 +204,6 @@
         <option value="$PROJECT_DIR$/src/components/2_animation/7_Animation/Animation.js" />
         <option value="$PROJECT_DIR$/src/components/2_animation/7_Animation/AnimationFrames.js" />
         <option value="$PROJECT_DIR$/src/3D/index.js" />
-        <option value="$PROJECT_DIR$/src/3D/App.js" />
         <option value="$PROJECT_DIR$/src/components/3_lights/12_recap/Recap.js" />
         <option value="$PROJECT_DIR$/src/components/4_maps/13_maps/Maps.js" />
         <option value="$PROJECT_DIR$/src/components/4_maps/14_map_types/DiffuseMap.js" />
@@ -220,13 +230,14 @@
         <option value="$PROJECT_DIR$/src/components/5_materials/16_material_types/materials_editor_code.js" />
         <option value="$PROJECT_DIR$/src/components/5_materials/16_material_types/MaterialTypes.js" />
         <option value="$PROJECT_DIR$/src/lib/RGBELoader.js" />
-        <option value="$PROJECT_DIR$/src/lib/HDRCubeTextureLoader.js" />
         <option value="$PROJECT_DIR$/src/lib/PMREMGenerator.js" />
         <option value="$PROJECT_DIR$/src/lib/PMREMCubeUVPacker.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBRSampler.js" />
         <option value="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/texture_cube.js" />
+        <option value="$PROJECT_DIR$/src/lib/HDRCubeTextureLoader.js" />
         <option value="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/obj_loader.js" />
+        <option value="$PROJECT_DIR$/src/3D/App.js" />
         <option value="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/PBRSampler.js" />
       </list>
     </option>
@@ -288,14 +299,7 @@
               <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="cerberus" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,12 +372,12 @@
       <workItem from="1514482076861" duration="4015000" />
       <workItem from="1514487355014" duration="12771000" />
       <workItem from="1514644204359" duration="15554000" />
-      <workItem from="1514667598936" duration="68007000" />
+      <workItem from="1514667598936" duration="71177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177064000" />
+    <option name="totallyTimeSpent" value="180234000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -495,14 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
           <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/3D/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -629,16 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/3D/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/4_maps/13_maps/Maps.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -742,7 +728,7 @@
         <state relative-caret-position="239">
           <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -751,16 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="49" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CodeView/CodeView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -782,16 +758,6 @@
         <state relative-caret-position="536">
           <caret line="349" column="26" lean-forward="true" selection-start-line="347" selection-start-column="2" selection-end-line="349" selection-end-column="26" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/HDRCubeTextureLoader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -831,36 +797,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/texture_cube.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/three-obj-loader/dist/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="62" lean-forward="true" selection-start-line="0" selection-start-column="42" selection-end-line="1" selection-end-column="62" />
+        <state relative-caret-position="352">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/three-obj-loader/dist/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/texture_cube.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="132">
+          <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CodeView/CodeView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="55" column="72" lean-forward="true" selection-start-line="54" selection-start-column="12" selection-end-line="55" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/obj_loader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="464">
+          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/HDRCubeTextureLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="106" column="65" lean-forward="false" selection-start-line="106" selection-start-column="65" selection-end-line="106" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/3D/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/3D/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/PBRSampler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        <state relative-caret-position="435">
+          <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

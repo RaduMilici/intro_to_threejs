@@ -2,11 +2,9 @@ import * as THREE from 'three';
 import RGBELoader from './RGBELoader';
 
 const HDRCubeTextureLoader = function ( manager ) {
-
 	this.manager = ( manager !== undefined ) ? manager : THREE.DefaultLoadingManager;
 	// override in sub classes
 	this.hdrLoader = new RGBELoader();
-
 };
 
 HDRCubeTextureLoader.prototype.load = function ( type, urls, onLoad, onProgress, onError ) {
@@ -106,7 +104,7 @@ HDRCubeTextureLoader.prototype.load = function ( type, urls, onLoad, onProgress,
 
 	function loadHDRData( i, onLoad, onProgress, onError ) {
 
-		var loader = new THREE.FileLoader( this.manager );
+		var loader = new THREE.FileLoader(THREE.DefaultLoadingManager);
 		loader.setResponseType( 'arraybuffer' );
 		loader.load( urls[ i ], function ( buffer ) {
 
