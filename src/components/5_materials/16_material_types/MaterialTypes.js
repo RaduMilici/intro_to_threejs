@@ -4,7 +4,7 @@ import Card from '../../Card/Card';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import MaterialSampler from './MaterialSampler';
-import PBRSambler from './PBRSampler';
+import PBRSambler from './PBR/PBRSampler';
 import battlezone from '../../../img/battlezone.gif';
 import tronLightCycle from '../../../img/tron-lightcycle.gif';
 import gouraudShading from '../../../img/gouraud_shading.jpg';

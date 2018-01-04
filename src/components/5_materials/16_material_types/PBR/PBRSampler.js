@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import CodeView from '../../CodeView/CodeView';
-import {App3D, util} from '../../../3D';
-import { PointLight, AmbientLight } from 'three';
-import HDRCubeTextureLoader from '../../../../src/lib/HDRCubeTextureLoader';
+import CodeView from '../../../CodeView/CodeView';
+import {App3D, util} from '../../../../3D/index';
+import { PointLight, AmbientLight, CubeTextureLoader } from 'three';
+import HDRCubeTextureLoader from '../../../../lib/HDRCubeTextureLoader';
 import OBJLoader from 'three-obj-loader';
-import RGBELoader from '../../../../src/lib/RGBELoader';
-import PMREMGenerator from '../../../../src/lib/PMREMGenerator';
-import PMREMCubeUVPacker from '../../../../src/lib/PMREMCubeUVPacker';
+import RGBELoader from '../../../../lib/RGBELoader';
+import PMREMGenerator from '../../../../lib/PMREMGenerator';
+import PMREMCubeUVPacker from '../../../../lib/PMREMCubeUVPacker';
+import loadTextureCube from './texture_cube';
 
 class MaterialSampler extends Component {
   constructor() {
     super();
-    //const l = new PMREMGenerator();
-    //console.log(l);
+    this.textureCube = loadTextureCube();
     this.state = {
       editorArgs: {
         scene: null,
@@ -33,6 +33,7 @@ class MaterialSampler extends Component {
     this.app3d = new App3D('.code-view');
     this.app3d.camera.position.set(0, 0, 6);
     this.app3d.updater.start();
+    this.app3d.scene.background = this.textureCube;
     util.addControls(this.app3d);
     const editorArgs = { scene: this.app3d.scene };
     this.setState({ editorArgs }, () => {

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b508b57a-0de7-44e2-a02b-88a876adb39a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/texture_cube.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBRSampler.js" afterPath="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBRSampler.js" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/5_materials/16_material_types/MaterialTypes.js" afterPath="$PROJECT_DIR$/src/components/5_materials/16_material_types/MaterialTypes.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBRSampler.js" afterPath="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/PBRSampler.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,11 +32,25 @@
         </entry>
       </file>
       <file leaf-file-name="PBRSampler.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/5_materials/16_material_types/PBRSampler.js">
+        <entry file="file://$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/PBRSampler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="68" lean-forward="false" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
-              <folding />
+            <state relative-caret-position="326">
+              <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="texture_cube.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/texture_cube.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
-              <caret line="1" column="45" lean-forward="true" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+              <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -88,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/1_the_basics/4_camera/Camera.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" column="49" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="49" />
+              <caret line="9" column="49" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="49" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -100,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/CodeView/CodeView.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -164,8 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/8_FrameRate/FrameRate.css" />
-        <option value="$PROJECT_DIR$/src/components/8_FrameRate/FrameRate.js" />
         <option value="$PROJECT_DIR$/src/components/Card/Card.css" />
         <option value="$PROJECT_DIR$/src/components/2_what_is_three/GpuVsCpu.js" />
         <option value="$PROJECT_DIR$/src/components/SceneView/SceneView.js" />
@@ -215,6 +228,8 @@
         <option value="$PROJECT_DIR$/src/lib/PMREMCubeUVPacker.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBRSampler.js" />
+        <option value="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/texture_cube.js" />
+        <option value="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/PBRSampler.js" />
       </list>
     </option>
   </component>
@@ -275,7 +290,31 @@
               <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="5_materials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="5_materials" type="462c0819:PsiDirectoryNode" />
+              <item name="16_material_types" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="5_materials" type="462c0819:PsiDirectoryNode" />
+              <item name="16_material_types" type="462c0819:PsiDirectoryNode" />
+              <item name="PBR" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -301,11 +340,11 @@
       <recent name="$PROJECT_DIR$/src/components/3_renderer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR" />
       <recent name="$PROJECT_DIR$/src/components/3_lights/11_light_types" />
       <recent name="$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame" />
       <recent name="$PROJECT_DIR$/src/components/2_animation" />
       <recent name="$PROJECT_DIR$/src/components/1_the_basics" />
-      <recent name="$PROJECT_DIR$/src/components/1_welcome" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -348,12 +387,12 @@
       <workItem from="1514482076861" duration="4015000" />
       <workItem from="1514487355014" duration="12771000" />
       <workItem from="1514644204359" duration="15554000" />
-      <workItem from="1514667598936" duration="66531000" />
+      <workItem from="1514667598936" duration="67125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175588000" />
+    <option name="totallyTimeSpent" value="176182000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,14 +439,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/2_animation/8_FrameRate/FrameRate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/1_the_basics/2_what_is_three/Basics.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -704,7 +735,7 @@
         <state relative-caret-position="506">
           <caret line="26" column="71" lean-forward="false" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
           <folding>
-            <element signature="e#0#55#0" expanded="true" />
+            <element signature="e#0#55#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -722,7 +753,7 @@
         <state relative-caret-position="347">
           <caret line="46" column="33" lean-forward="false" selection-start-line="45" selection-start-column="44" selection-end-line="46" selection-end-column="33" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -756,7 +787,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/1_the_basics/4_camera/Camera.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="49" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="49" />
+          <caret line="9" column="49" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="49" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -766,7 +797,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/CodeView/CodeView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -796,7 +827,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="31" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -814,7 +845,7 @@
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="1" column="45" lean-forward="true" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+          <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -837,11 +868,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/5_materials/16_material_types/PBRSampler.js">
+    <entry file="file://$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/texture_cube.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="68" lean-forward="false" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
-          <folding />
+        <state relative-caret-position="308">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/PBRSampler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
