@@ -7,9 +7,7 @@ import pz from '../../../../../src/textures/cube/pisa/pz.png';
 import nz from '../../../../../src/textures/cube/pisa/nz.png';
 
 function loadTextureCube() {
-  const loader = new CubeTextureLoader();
-  const textureCube = loader.load( [ px, nx, py, ny, pz, nz ] );
-  return textureCube;
+  return new CubeTextureLoader().load([px, nx, py, ny, pz, nz]);
 }
 
 export default loadTextureCube;

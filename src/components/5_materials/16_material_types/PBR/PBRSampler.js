@@ -3,20 +3,24 @@ import CodeView from '../../../CodeView/CodeView';
 import {App3D, util} from '../../../../3D/index';
 import { PointLight, AmbientLight, CubeTextureLoader } from 'three';
 import HDRCubeTextureLoader from '../../../../lib/HDRCubeTextureLoader';
-import OBJLoader from 'three-obj-loader';
 import RGBELoader from '../../../../lib/RGBELoader';
 import PMREMGenerator from '../../../../lib/PMREMGenerator';
 import PMREMCubeUVPacker from '../../../../lib/PMREMCubeUVPacker';
 import loadTextureCube from './texture_cube';
+import loadMesh from './obj_loader';
 
 class MaterialSampler extends Component {
   constructor() {
     super();
     this.textureCube = loadTextureCube();
+    loadMesh(mesh => {
+      this.mesh = mesh;
+      this.app3d.scene.add(this.mesh);
+    });
+    console.log(this.mesh);
     this.state = {
       editorArgs: {
         scene: null,
-        OBJLoader,
       },
       code: `return new THREE.Object3d();`
     }
