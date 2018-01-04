@@ -2,14 +2,17 @@ import React, { Component } from 'react';
 import CodeView from '../../CodeView/CodeView';
 import {App3D, util} from '../../../3D';
 import { PointLight, AmbientLight } from 'three';
+import HDRCubeTextureLoader from '../../../../src/lib/HDRCubeTextureLoader';
 import OBJLoader from 'three-obj-loader';
 import RGBELoader from '../../../../src/lib/RGBELoader';
+import PMREMGenerator from '../../../../src/lib/PMREMGenerator';
+import PMREMCubeUVPacker from '../../../../src/lib/PMREMCubeUVPacker';
 
 class MaterialSampler extends Component {
   constructor() {
     super();
-    const l = new RGBELoader();
-    console.log(l);
+    //const l = new PMREMGenerator();
+    //console.log(l);
     this.state = {
       editorArgs: {
         scene: null,

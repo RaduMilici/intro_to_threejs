@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b508b57a-0de7-44e2-a02b-88a876adb39a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/5_materials/15_materials/MaterialSystem.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/5_materials/15_materials/Materials.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/5_materials/16_material_types/MaterialSampler.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/5_materials/16_material_types/MaterialTypes.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBRSampler.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/5_materials/16_material_types/materials_editor_code.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/radu_milici.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/radu_milici.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/src/3D/util.js" afterPath="$PROJECT_DIR$/src/3D/util.js" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/1_the_basics/6_recap/Recap.js" afterPath="$PROJECT_DIR$/src/components/1_the_basics/6_recap/Recap.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/3_lights/11_light_types/DirectionalLight.js" afterPath="$PROJECT_DIR$/src/components/3_lights/11_light_types/DirectionalLight.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/3_lights/11_light_types/LightTypes.js" afterPath="$PROJECT_DIR$/src/components/3_lights/11_light_types/LightTypes.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/3_lights/11_light_types/PointLight.js" afterPath="$PROJECT_DIR$/src/components/3_lights/11_light_types/PointLight.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/3_lights/11_light_types/SpotLight.js" afterPath="$PROJECT_DIR$/src/components/3_lights/11_light_types/SpotLight.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/4_maps/14_map_types/MapSampler.js" afterPath="$PROJECT_DIR$/src/components/4_maps/14_map_types/MapSampler.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/4_maps/14_map_types/MapTypes.js" afterPath="$PROJECT_DIR$/src/components/4_maps/14_map_types/MapTypes.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/Quote/Quote.js" afterPath="$PROJECT_DIR$/src/components/Card/Quote/Quote.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" afterPath="$PROJECT_DIR$/src/components/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
+      <change beforePath="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBRSampler.js" afterPath="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBRSampler.js" />
       <change beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -38,16 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MaterialSystem.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/5_materials/15_materials/MaterialSystem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MaterialTypes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/5_materials/16_material_types/MaterialTypes.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,33 +30,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="materials_editor_code.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/5_materials/16_material_types/materials_editor_code.js">
+      <file leaf-file-name="PBRSampler.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/5_materials/16_material_types/PBRSampler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+            <state relative-caret-position="176">
+              <caret line="8" column="68" lean-forward="false" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PBRSampler.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/5_materials/16_material_types/PBRSampler.js">
+      <file leaf-file-name="PMREMCubeUVPacker.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/PMREMCubeUVPacker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RGBELoader.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/RGBELoader.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="349" column="25" lean-forward="false" selection-start-line="349" selection-start-column="15" selection-end-line="349" selection-end-column="25" />
+            <state relative-caret-position="563">
+              <caret line="194" column="32" lean-forward="false" selection-start-line="194" selection-start-column="15" selection-end-line="194" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -107,8 +65,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="44">
+              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -126,21 +84,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CodeView.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/CodeView/CodeView.js">
+      <file leaf-file-name="Camera.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/1_the_basics/4_camera/Camera.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
-              <folding />
+            <state relative-caret-position="198">
+              <caret line="9" column="49" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapSampler.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/4_maps/14_map_types/MapSampler.js">
+      <file leaf-file-name="CodeView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/CodeView/CodeView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="46" column="33" lean-forward="false" selection-start-line="45" selection-start-column="44" selection-end-line="46" selection-end-column="33" />
+            <state relative-caret-position="0">
+              <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -160,14 +120,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>msLastFrame</find>
-      <find>msFpsLimit</find>
-      <find>stats</find>
-      <find>ytplayer</find>
-      <find>destroyScene</find>
       <find>state</find>
       <find>color: dar</find>
-      <find>orbitc</find>
       <find>OrbitControls</find>
       <find>moon</find>
       <find>controls</find>
@@ -189,11 +143,19 @@
       <find>geometry</find>
       <find>THREE.</find>
       <find>THREE.RGBELoader</find>
+      <find>THREE.HDRCubeTextureLoader</find>
+      <find>orbitc</find>
       <find>three.</find>
+      <find>rgbe</find>
+      <find>three.pm</find>
+      <find>sourceTexture</find>
+      <find>three.PMREMCubeUVPacker</find>
     </findStrings>
     <replaceStrings>
-      <replace>'</replace>
       <replace>RGBELoader</replace>
+      <replace>'</replace>
+      <replace>HDRCubeTextureLoader</replace>
+      <replace>PMREMCubeUVPacker</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -202,9 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/6_recap/Recap.js" />
-        <option value="$PROJECT_DIR$/src/3D/Updater.js" />
-        <option value="$PROJECT_DIR$/src/components/CodeView/CodeView.css" />
         <option value="$PROJECT_DIR$/src/components/8_FrameRate/FrameRate.css" />
         <option value="$PROJECT_DIR$/src/components/8_FrameRate/FrameRate.js" />
         <option value="$PROJECT_DIR$/src/components/Card/Card.css" />
@@ -250,8 +209,11 @@
         <option value="$PROJECT_DIR$/src/components/5_materials/16_material_types/MaterialSampler.js" />
         <option value="$PROJECT_DIR$/src/components/5_materials/16_material_types/materials_editor_code.js" />
         <option value="$PROJECT_DIR$/src/components/5_materials/16_material_types/MaterialTypes.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/lib/RGBELoader.js" />
+        <option value="$PROJECT_DIR$/src/lib/HDRCubeTextureLoader.js" />
+        <option value="$PROJECT_DIR$/src/lib/PMREMGenerator.js" />
+        <option value="$PROJECT_DIR$/src/lib/PMREMCubeUVPacker.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBRSampler.js" />
       </list>
     </option>
@@ -386,12 +348,12 @@
       <workItem from="1514482076861" duration="4015000" />
       <workItem from="1514487355014" duration="12771000" />
       <workItem from="1514644204359" duration="15554000" />
-      <workItem from="1514667598936" duration="65695000" />
+      <workItem from="1514667598936" duration="66531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174752000" />
+    <option name="totallyTimeSpent" value="175588000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,45 +395,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/5_materials/16_material_types/PBRSampler.js</url>
-          <line>12</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/3D/WireframePlane.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#108#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/3D/Updater.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CodeView/CodeView.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/2_animation/8_FrameRate/FrameRate.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -545,16 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/1_the_basics/4_camera/Camera.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="47" column="40" lean-forward="false" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
@@ -809,14 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CodeView/CodeView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/5_materials/15_materials/MaterialSystem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -843,12 +753,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/1_the_basics/4_camera/Camera.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="49" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CodeView/CodeView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/5_materials/16_material_types/MaterialSampler.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/RGBELoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="349" column="26" lean-forward="true" selection-start-line="347" selection-start-column="2" selection-end-line="349" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/HDRCubeTextureLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/PMREMGenerator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <marker date="1515085583000" expanded="true" signature="6163:9892" ph="..." />
           </folding>
         </state>
       </provider>
@@ -865,27 +823,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="44">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/RGBELoader.js">
+    <entry file="file://$PROJECT_DIR$/src/lib/PMREMCubeUVPacker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="349" column="25" lean-forward="false" selection-start-line="349" selection-start-column="15" selection-end-line="349" selection-end-column="25" />
+        <state relative-caret-position="563">
+          <caret line="194" column="32" lean-forward="false" selection-start-line="194" selection-start-column="15" selection-end-line="194" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/5_materials/16_material_types/PBRSampler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="8" column="68" lean-forward="false" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>
