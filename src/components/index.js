@@ -22,9 +22,11 @@ import MapTypes from './4_maps/14_map_types/MapTypes';
 import Materials from './5_materials/15_materials/Materials';
 import MaterialSystem from './5_materials/15_materials/MaterialSystem';
 import MaterialTypes from './5_materials/16_material_types/MaterialTypes';
+import ThankYou from './1_the_basics/1_welcome/ThankYou';
 
 export { Welcome, WhatIsThree, GpuVsCpu, Basics, Renderer, Camera, Scene, Recap,
   BasicsInAction, Animation, AnimationFrames, AnimationLoop, FrameRate,
   AnimationInAction, RequestAnimationFrame, Lights, LightTypes, LightsRecap,
   Maps, TextureMapping, MapTypes, Materials, MaterialSystem, MaterialTypes,
+  ThankYou
 };

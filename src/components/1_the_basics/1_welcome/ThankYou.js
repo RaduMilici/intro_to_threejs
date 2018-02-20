@@ -5,10 +5,10 @@ import WireframePlane from '../../../3D/WireframePlane';
 import Particles from './Particles';
 import { App3D } from '../../../3D/index';
 
-class Welcome extends Component {
+class ThankYou extends Component {
   componentDidMount() {
     this.app3d = new App3D('#WebGL');
-    const introText = new IntroText(this.app3d.updater, 'intro to three.js');
+    const introText = new IntroText(this.app3d.updater, 'thank you!');
     const wireframePlane = new WireframePlane(this.app3d.updater);
     const particles = new Particles(this.app3d.updater);
     this.app3d.scene.add(introText, wireframePlane, particles);
@@ -26,4 +26,4 @@ class Welcome extends Component {
   }
 }
 
-export default Welcome;
+export default ThankYou;

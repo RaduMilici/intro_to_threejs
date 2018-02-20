@@ -35,7 +35,7 @@ class MaterialSampler extends Component {
 
   componentDidMount() {
     this.app3d = new App3D('.code-view', undefined, true);
-    this.app3d.camera.position.set(0.9, 0, 0);
+    this.app3d.camera.position.set(0.85, 0, 0);
     this.app3d.camera.lookAt(0, 0, 0);
     this.app3d.updater.start();
     this.app3d.scene.background = this.textureCube;
