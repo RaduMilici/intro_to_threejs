@@ -1,4 +1,5 @@
 import Welcome from './1_the_basics/1_welcome/Welcome';
+import AboutMe from './1_the_basics/1_welcome/AboutMe';
 import WhatIsThree from './1_the_basics/2_what_is_three/What_is_three';
 import GpuVsCpu from './1_the_basics/2_what_is_three/GpuVsCpu';
 import Basics from './1_the_basics/2_what_is_three/Basics';
@@ -24,7 +25,7 @@ import MaterialSystem from './5_materials/15_materials/MaterialSystem';
 import MaterialTypes from './5_materials/16_material_types/MaterialTypes';
 import ThankYou from './1_the_basics/1_welcome/ThankYou';
 
-export { Welcome, WhatIsThree, GpuVsCpu, Basics, Renderer, Camera, Scene, Recap,
+export { Welcome, AboutMe, WhatIsThree, GpuVsCpu, Basics, Renderer, Camera, Scene, Recap,
   BasicsInAction, Animation, AnimationFrames, AnimationLoop, FrameRate,
   AnimationInAction, RequestAnimationFrame, Lights, LightTypes, LightsRecap,
   Maps, TextureMapping, MapTypes, Materials, MaterialSystem, MaterialTypes,
