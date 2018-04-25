@@ -20,6 +20,7 @@ class _Scene extends Component {
 const geometry = new THREE.CubeGeometry(1, 1, 1);
 const material = new THREE.MeshBasicMaterial({color: 0x00ff00});
 const cube = new THREE.Mesh(geometry, material);
+
 cube.position.set(0, 0, 0);
 
 scene.add(cube);

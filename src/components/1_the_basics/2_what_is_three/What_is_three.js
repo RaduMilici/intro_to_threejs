@@ -14,7 +14,7 @@ class WhatIsThree extends Component {
               <li>an easy to use 3D library</li>
               <li>great abstraction over raw WebGL</li>
               <li>provides &lt;canvas&gt;, &lt;svg&gt;, CSS3D and (most importantly) WebGL renderers</li>
-              <li>updated frequently</li>
+              <li>updated frequently (92 revisions in 8 years)</li>
               <li>
                 active community
                 <ul>
