@@ -5,7 +5,7 @@ class WireframePlane extends Object3D {
   constructor(updater) {
     super();
     this.updater = updater;
-    this.speed = 0.05;
+    this.speed = 0.01;
     this.vertexShader = `
       uniform float time;
       uniform float height;
@@ -31,7 +31,7 @@ class WireframePlane extends Object3D {
     this.addWireframePlane();
   }
 
-  makeMaterial() {
+  makeMaterial(col) {
     const noiseMap = new TextureLoader().load(textureUrl);
     noiseMap.wrapS = noiseMap.wrapT = RepeatWrapping;
     const vertexShader = this.vertexShader;
@@ -40,9 +40,9 @@ class WireframePlane extends Object3D {
     return new ShaderMaterial({
       wireframe: true,
       uniforms: {
-        color: { value: new Color(0x2C5B61) },
+        color: { value: new Color(col) },
         time: { value: 0 },
-        height: { value: 50 },
+        height: { value: 30 },
         noiseMap: { value: noiseMap },
       },
       vertexShader,
@@ -51,12 +51,17 @@ class WireframePlane extends Object3D {
   }
 
   addWireframePlane() {
-    const geometry = new PlaneGeometry( 150, 100, 150, 100 );
-    const plane = new Mesh( geometry, this.makeMaterial() );
+    const geometry = new PlaneGeometry( 150, 120, 50, 50 );
+    const plane = new Mesh( geometry, this.makeMaterial(0x2C5B61) );
+    const plane2 = new Mesh( geometry, this.makeMaterial('rgb(41, 44, 52)') );
+    plane2.position.z = -10;
+
     this.updater.add((timestamp, delta) => {
       plane.material.uniforms.time.value += this.speed * delta;
+      plane2.material.uniforms.time.value += this.speed * delta;
     });
     this.add(plane);
+    this.add(plane2);
   }
 
 }

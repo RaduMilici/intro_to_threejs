@@ -1,34 +1,6 @@
-import Welcome from './1_the_basics/1_welcome/Welcome';
-import AboutMe from './1_the_basics/1_welcome/AboutMe';
-import WhatIsThree from './1_the_basics/2_what_is_three/What_is_three';
-import Suport from './1_the_basics/2_what_is_three/Support';
-import GpuVsCpu from './1_the_basics/2_what_is_three/GpuVsCpu';
-import Basics from './1_the_basics/2_what_is_three/Basics';
-import Renderer from './1_the_basics/3_renderer/Renderer';
-import Camera from './1_the_basics/4_camera/Camera';
-import Scene from './1_the_basics/5_scene/Scene';
-import Recap from './1_the_basics/6_recap/Recap';
-import BasicsInAction from './1_the_basics/6_recap/BasicsInAction';
-import Animation from './2_animation/7_Animation/Animation';
-import AnimationFrames from './2_animation/7_Animation/AnimationFrames';
-import AnimationLoop from './2_animation/7_Animation/AnimationLoop';
-import FrameRate from './2_animation/8_FrameRate/FrameRate';
-import AnimationInAction from './2_animation/9_RequestAnimationFrame/AnimationInAction';
-import RequestAnimationFrame from './2_animation/9_RequestAnimationFrame/RequestAnimationFrame';
-import Lights from './3_lights/10_lights/Lights';
-import LightTypes from './3_lights/11_light_types/LightTypes';
-import LightsRecap from './3_lights/12_recap/Recap';
-import Maps from './4_maps/13_maps/Maps';
-import TextureMapping from './4_maps/13_maps/TextureMapping';
-import MapTypes from './4_maps/14_map_types/MapTypes';
-import Materials from './5_materials/15_materials/Materials';
-import MaterialSystem from './5_materials/15_materials/MaterialSystem';
-import MaterialTypes from './5_materials/16_material_types/MaterialTypes';
-import ThankYou from './1_the_basics/1_welcome/ThankYou';
+import Welcome from './three/1_the_basics/1_welcome/Welcome';
+import Grid from './pathfinding/1_Grid/Grid';
+import WhatIsPathfinding from './pathfinding/1_the_basics/1_what_is_pathfinding';
+import Applications from './pathfinding/1_the_basics/2_Applications';
 
-export { Welcome, AboutMe, WhatIsThree, Suport, GpuVsCpu, Basics, Renderer, Camera, Scene, Recap,
-  BasicsInAction, Animation, AnimationFrames, AnimationLoop, FrameRate,
-  AnimationInAction, RequestAnimationFrame, Lights, LightTypes, LightsRecap,
-  Maps, TextureMapping, MapTypes, Materials, MaterialSystem, MaterialTypes,
-  ThankYou
-};
+export { Welcome, WhatIsPathfinding, Applications };
