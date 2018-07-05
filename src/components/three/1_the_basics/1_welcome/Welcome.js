@@ -8,7 +8,7 @@ import { App3D } from '../../../../3D/index';
 class Welcome extends Component {
   componentDidMount() {
     this.app3d = new App3D('#WebGL');
-    const introText = new IntroText(this.app3d.updater, 'intro to pathfinding');
+    const introText = new IntroText(this.app3d.updater, 'A* pathfinding');
     const wireframePlane = new WireframePlane(this.app3d.updater);
     const particles = new Particles(this.app3d.updater);
     this.app3d.scene.add(introText, wireframePlane, particles);
