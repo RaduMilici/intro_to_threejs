@@ -1,12 +1,6 @@
 import React, {Component} from 'react';
-import SceneView from '../../SceneView/SceneView';
-import Card from '../../Card/Card';
-import Canvas from '../../../2D/Canvas';
+import Canvas from '../../../../2D/Canvas';
 import { Line } from 'pulsar-pathfinding';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
-import Pythagoras from './distance/pythagora';
-import Neighbors from './distance/neighbors';
 
 
 class DistanceBetweenNodes extends Component {
@@ -41,28 +35,27 @@ class DistanceBetweenNodes extends Component {
 
   render() {
     return (
-      <div>
-        <SceneView/>
-        <Card>
-          <h2>Distance between nodes</h2>
+        <div>
           <div style={{width: 900}}>
-            <Tabs forceRenderTabPanel={true}>
-              <TabList>
-                <Tab>Pythagoras</Tab>
-                <Tab>Neighbors</Tab>
-              </TabList>
-
-              <TabPanel>
-                <Pythagoras/>
-              </TabPanel>
-
-              <TabPanel>
-                <Neighbors/>
-              </TabPanel>
-            </Tabs>
+            <div style={{display: 'flex'}}>
+              <canvas style={{'margin-right': 20}} id='distanceCanvas'></canvas>
+              <ul className='space-list'>
+                <li>
+                  Navigators can move both adjacently and diagonally.
+                </li>
+                <li>
+                  If we set the adjacent distance to <strong>1</strong>, use Pythagoras' theorem to find diagonal cost.
+                </li>
+                <li>
+                  <p>c = &radic;(a<sup>2</sup> + b<sup>2</sup>) &cong;1.4</p>
+                </li>
+                <li>
+                  These numbers can represent <i>any</i> distance as long as they maintain this proportion.
+                </li>
+              </ul>
+            </div>
           </div>
-        </Card>
-      </div>
+        </div>
     );
   }
 }

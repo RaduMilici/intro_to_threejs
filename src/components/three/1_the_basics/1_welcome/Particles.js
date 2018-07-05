@@ -17,7 +17,7 @@ class Particles extends Object3D {
         vec3 pos = position + direction * time;
         pos = mod(pos, cage);
         pos -= cage / 2.0;
-        gl_PointSize = sin(pos.y) * 3.;
+        gl_PointSize = cos(pos.z) * 3.;
         gl_Position = projectionMatrix  * modelViewMatrix * vec4( pos, 1.0 );
       }
     `;

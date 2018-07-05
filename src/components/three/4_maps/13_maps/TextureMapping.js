@@ -39,7 +39,8 @@ class TextureMapping extends Component {
             <ul>
               <li>A method for defining detail, surface texture, or color information on a 3D model.</li>
               <li>Originally referred to a method that mapped pixels from a texture to a 3D surface.</li>
-              <li>In recent decades, the advent of many other variations on the technique <strong>(controlled by a material system)</strong> have made it possible to simulate near-photorealism in real time.</li>
+              <li>In recent decades, the advent of many other variations on the technique <strong>(controlled by a material system)</strong>
+                have made it possible to simulate near-photorealism in real time.</li>
             </ul>
             <img src={checker} width='500'/>
             <div className='code-view'></div>

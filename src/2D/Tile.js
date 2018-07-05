@@ -72,17 +72,16 @@ export default class Tile {
         const { x, y } = this.position;
         const { width, height } = this.size;
         this.context.beginPath();
-        //this.context.arc(x, y , width, 0, 2*Math.PI);
         this.context.rect(x, y, width, height);
         drawAction();
         this.context.closePath();
     }
     drawStart() {
-        this.fill('red');
+        this.fill('rgba(255, 0, 0, 0.5)');
     }
 
     drawEnd() {
-        this.fill('blue');
+        this.fill('rgba(0, 0, 255, 0.5)');
     }
 }
 //# sourceMappingURL=Tile.js.map

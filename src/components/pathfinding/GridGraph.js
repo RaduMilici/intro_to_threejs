@@ -16,18 +16,22 @@ class InputOutput extends Component {
   }
 
   drawGrid() {
-    const canvasSize = { width: 250, height: 250 };
-    const tileSide = 25;
+    const canvasSize = this.props.canvasSize || { width: 250, height: 250 };
+    const tileSide = this.props.tileSide || 25;
     const tileSize = { width: tileSide, height: tileSide };
     this.canvas = new Canvas(`#${this.canvasId}`, canvasSize);
     this.canvas.drawGrid(this.props.size, tileSize);
   }
 
   drawStartStop() {
-    const startTile = this.canvas.getTile(this.props.start);
-    const endTile = this.canvas.getTile(this.props.stop);
-    startTile.drawStart();
-    endTile.drawEnd();
+    if (this.props.start) {
+      const startTile = this.canvas.getTile(this.props.start);
+      startTile.drawStart();
+    }
+    if(this.props.stop) {
+      const endTile = this.canvas.getTile(this.props.stop);
+      endTile.drawEnd();
+    }
   }
 
   makeNavigator(grid) {

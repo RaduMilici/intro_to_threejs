@@ -20,3 +20,9 @@ code {
     position: absolute;
     z-index: 1;
 }
+
+.space-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
