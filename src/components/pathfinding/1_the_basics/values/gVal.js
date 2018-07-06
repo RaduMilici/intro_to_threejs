@@ -47,10 +47,16 @@ class gVal extends Component {
       for (let i = 0; i < neighbors.length; i++) {
         const neighbor = neighbors[i];
         const canvasTile = this.canvas.getTile(neighbor.position);
-        const pos = new Vector(canvasTile.centroid).add({ x: -15, y: 10 });
+        const pos = new Vector(canvasTile.centroid).add({ x: -17.5, y: 15 });
         const { gVal } = neighbor.getNavigatorData(navigator);
         this.canvas.draw.text(Math.round(gVal * 10), pos, 30, 'white');
       }
+    }
+
+    const last = navigator.path[this.state.steps - 1];
+    if (last) {
+      const lastCanvasTile = this.canvas.getTile(last.position);
+      lastCanvasTile.drawCurrent();
     }
   }
 
@@ -65,11 +71,11 @@ class gVal extends Component {
   render() {
     return (
         <div>
-          <div style={{width: 900}}>
             <div style={{display: 'flex'}}>
               <GridGraph ref='grid' canvasSize={this.canvasSize} size={this.size} start={this.start} stop={this.stop}/>
               <div style={{display: 'flex', alignItems: 'center', width: '100%', justifyContent: 'space-evenly', flexDirection: 'column', padding: 30}}>
                 <p>The G value represents the distance to from the starting point to a given node on the grid, following the path generated to get there.</p>
+                <p>Recalculation is not necessary for already visited nodes.</p>
                 <p>We can now walk through the path one tile at a time and observe each individual G value.</p>
                 <div style={{display: 'flex', alignItems: 'center', width: '100%', justifyContent: 'space-evenly'}}>
                   <button className='button' onClick={() =>this.stepNavigator(-1)}> &larr; </button>
@@ -78,7 +84,6 @@ class gVal extends Component {
               </div>
             </div>
           </div>
-        </div>
     );
   }
 }

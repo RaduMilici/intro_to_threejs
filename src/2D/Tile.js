@@ -61,10 +61,10 @@ export default class Tile {
             this.context.fill();
         });
     }
-    stroke(color = 'black') {
+    stroke(color = 'black', width = 1) {
         this.draw(() => {
             this.context.strokeStyle = color;
-            this.context.lineWidth = 1;
+            this.context.lineWidth = width;
             this.context.stroke();
         });
     }
@@ -75,6 +75,9 @@ export default class Tile {
         this.context.rect(x, y, width, height);
         drawAction();
         this.context.closePath();
+    }
+    drawCurrent() {
+        this.stroke('black', 10);
     }
     drawStart(color = 'red') {
         this.fill(color);
