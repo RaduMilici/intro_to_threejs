@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Canvas from '../../../../2D/Canvas';
 import GridGraph from '../../GridGraph';
 import { Navigator, Grid, Vector } from 'pulsar-pathfinding';
 
@@ -32,14 +31,14 @@ class Neighbors extends Component {
       const pos = new Vector(canvasTile.centroid).add({ x: -15, y: 10 });
 
       if (tile.id === middle.id) {
-        this.refs.grid.drawStartStop();
+        this.refs.grid.drawStartStop({ startCol: 'rgba(255, 0, 0, 0.5)' });
         return;
       }
 
       if (Navigator.isDiagonal(tile, middle)) {
-        this.canvas.draw.text('14', pos, fontSize, fontColor);
+        this.canvas.draw.text(Navigator.diagonalCost * 10, pos, fontSize, fontColor);
       } else {
-        this.canvas.draw.text('10', pos, fontSize, fontColor);
+        this.canvas.draw.text(Navigator.verticalCost * 10, pos, fontSize, fontColor);
       }
     });
   }

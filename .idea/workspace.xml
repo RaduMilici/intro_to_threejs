@@ -2,57 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b508b57a-0de7-44e2-a02b-88a876adb39a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/pathfinding/1_Grid/Grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/1_what_is_pathfinding.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/2_Applications.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/applications/exploration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/applications/industrial.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/applications/video_games.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/8_the_three_values.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/values/gVal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/3D/WireframePlane.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/3D/WireframePlane.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/1_the_basics/1_welcome/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/1_the_basics/1_welcome/AboutMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/1_the_basics/1_welcome/IntroText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/1_the_basics/1_welcome/IntroText.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/1_the_basics/1_welcome/Particles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/1_the_basics/1_welcome/Particles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/1_the_basics/1_welcome/ThankYou.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/1_the_basics/1_welcome/ThankYou.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/1_the_basics/1_welcome/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/1_the_basics/1_welcome/Welcome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/1_the_basics/2_what_is_three/Basics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/1_the_basics/2_what_is_three/Basics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/1_the_basics/2_what_is_three/GpuVsCpu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/1_the_basics/2_what_is_three/GpuVsCpu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/1_the_basics/2_what_is_three/Support.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/1_the_basics/2_what_is_three/Support.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/1_the_basics/2_what_is_three/What_is_three.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/1_the_basics/2_what_is_three/What_is_three.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/1_the_basics/3_renderer/Renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/1_the_basics/3_renderer/Renderer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/1_the_basics/4_camera/Camera.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/1_the_basics/4_camera/Camera.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/1_the_basics/5_scene/Scene.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/1_the_basics/5_scene/Scene.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/1_the_basics/6_recap/BasicsInAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/1_the_basics/6_recap/BasicsInAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/1_the_basics/6_recap/Recap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/1_the_basics/6_recap/Recap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/2_animation/7_Animation/Animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/2_animation/7_Animation/Animation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/2_animation/7_Animation/AnimationFrames.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/2_animation/7_Animation/AnimationFrames.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/2_animation/7_Animation/AnimationLoop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/2_animation/7_Animation/AnimationLoop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/2_animation/8_FrameRate/FrameRate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/2_animation/8_FrameRate/FrameRate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/2_animation/8_FrameRate/FrameRate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/2_animation/8_FrameRate/FrameRate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame/AnimationInAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/2_animation/9_RequestAnimationFrame/AnimationInAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame/RequestAnimationFrame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/2_animation/9_RequestAnimationFrame/RequestAnimationFrame.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/3_lights/10_lights/Lights.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/3_lights/10_lights/Lights.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/3_lights/11_light_types/DirectionalLight.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/3_lights/11_light_types/DirectionalLight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/3_lights/11_light_types/LightTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/3_lights/11_light_types/LightTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/3_lights/11_light_types/PointLight.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/3_lights/11_light_types/PointLight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/3_lights/11_light_types/SpotLight.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/3_lights/11_light_types/SpotLight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/3_lights/12_recap/Recap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/3_lights/12_recap/Recap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/4_maps/13_maps/Maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/4_maps/13_maps/Maps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/4_maps/13_maps/TextureMapping.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/4_maps/13_maps/TextureMapping.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/4_maps/14_map_types/MapSampler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/4_maps/14_map_types/MapSampler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/4_maps/14_map_types/MapTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/4_maps/14_map_types/MapTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/5_materials/15_materials/MaterialSystem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/5_materials/15_materials/MaterialSystem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/5_materials/15_materials/Materials.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/5_materials/15_materials/Materials.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/5_materials/16_material_types/MaterialSampler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/5_materials/16_material_types/MaterialSampler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/5_materials/16_material_types/MaterialTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/5_materials/16_material_types/MaterialTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/PBRSampler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/5_materials/16_material_types/PBR/PBRSampler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/obj_loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/5_materials/16_material_types/PBR/obj_loader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/texture_cube.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/5_materials/16_material_types/PBR/texture_cube.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/5_materials/16_material_types/materials_editor_code.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/three/5_materials/16_material_types/materials_editor_code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2D/Tile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/2D/Tile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/distance/neighbors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/distance/neighbors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pathfinding/GridGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pathfinding/GridGraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -69,8 +26,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+            <state relative-caret-position="192">
+              <caret line="12" column="141" selection-start-line="12" selection-start-column="141" selection-end-line="12" selection-end-column="141" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -78,31 +35,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicsInAction.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/three/1_the_basics/6_recap/BasicsInAction.js">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="608">
+              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Draw.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/2D/Draw.js">
+      <file leaf-file-name="Card.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Card/Card.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <state relative-caret-position="192">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Grid.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_Grid/Grid.js">
+      <file leaf-file-name="6_input_output.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/6_input_output.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            <state relative-caret-position="190">
+              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -110,73 +65,73 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Support.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/three/1_the_basics/2_what_is_three/Support.js">
+      <file leaf-file-name="7_distance_between_nodes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/7_distance_between_nodes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="416">
+              <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2_Applications.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/2_Applications.js">
+      <file leaf-file-name="8_the_three_values.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/8_the_three_values.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            <state relative-caret-position="384">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exploration.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/applications/exploration.js">
+      <file leaf-file-name="GridGraph.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/pathfinding/GridGraph.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="18" lean-forward="true" selection-end-line="19" />
+            <state relative-caret-position="320">
+              <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video_games.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/applications/video_games.js">
+      <file leaf-file-name="gVal.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/values/gVal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="121" selection-start-line="11" selection-start-column="121" selection-end-line="11" selection-end-column="121" />
+            <state relative-caret-position="338">
+              <caret line="71" column="46" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="industrial.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/applications/industrial.js">
+      <file leaf-file-name="Tile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/2D/Tile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="153" selection-start-line="11" selection-start-column="87" selection-end-line="11" selection-end-column="153" />
+            <state relative-caret-position="558">
+              <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AboutMe.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/three/1_the_basics/1_welcome/AboutMe.js">
+      <file leaf-file-name="neighbors.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/distance/neighbors.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="23" column="95" selection-start-line="23" selection-start-column="95" selection-end-line="23" selection-end-column="95" />
+            <state relative-caret-position="249">
+              <caret line="33" column="71" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,22 +149,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>before</find>
-      <find>makeEnvironment</find>
-      <find>slides</find>
-      <find>slide</find>
-      <find>makeTorusKnot</find>
-      <find>makesph</find>
-      <find>defaultp</find>
-      <find>geometry</find>
-      <find>THREE.</find>
-      <find>THREE.RGBELoader</find>
-      <find>THREE.HDRCubeTextureLoader</find>
-      <find>orbitc</find>
-      <find>three.</find>
-      <find>rgbe</find>
-      <find>three.pm</find>
-      <find>sourceTexture</find>
       <find>three.PMREMCubeUVPacker</find>
       <find>manager</find>
       <find>mage</find>
@@ -224,6 +163,22 @@
       <find>recap</find>
       <find>img/</find>
       <find>algo</find>
+      <find>intro to</find>
+      <find>gett</find>
+      <find>this.props.</find>
+      <find>gridSize</find>
+      <find>tileSide</find>
+      <find>_gridCoords</find>
+      <find>canvasSize</find>
+      <find>sq</find>
+      <find>red</find>
+      <find>new intr</find>
+      <find>a*</find>
+      <find>new</find>
+      <find>rgba</find>
+      <find>props</find>
+      <find>canvas</find>
+      <find>canvasTile</find>
     </findStrings>
     <replaceStrings>
       <replace>RGBELoader</replace>
@@ -243,25 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/1_the_basics/6_recap/Recap.js" />
-        <option value="$PROJECT_DIR$/src/components/3_lights/11_light_types/SpotLight.js" />
-        <option value="$PROJECT_DIR$/src/components/4_maps/14_map_types/MapTypes.js" />
-        <option value="$PROJECT_DIR$/src/components/3_lights/11_light_types/DirectionalLight.js" />
-        <option value="$PROJECT_DIR$/src/components/3_lights/11_light_types/PointLight.js" />
-        <option value="$PROJECT_DIR$/src/3D/util.js" />
-        <option value="$PROJECT_DIR$/src/components/4_maps/13_maps/TextureMapping.js" />
-        <option value="$PROJECT_DIR$/src/components/5_materials/15_materials/Materials.js" />
-        <option value="$PROJECT_DIR$/src/components/4_maps/14_map_types/MapSampler.js" />
-        <option value="$PROJECT_DIR$/src/components/5_materials/15_materials/MaterialSystem.js" />
-        <option value="$PROJECT_DIR$/src/components/5_materials/16_material_types/Basic.js" />
-        <option value="$PROJECT_DIR$/src/components/5_materials/16_material_types/Wireframe.js" />
-        <option value="$PROJECT_DIR$/src/components/CodeView/CodeView.js" />
-        <option value="$PROJECT_DIR$/src/lib/RGBELoader.js" />
-        <option value="$PROJECT_DIR$/src/lib/PMREMGenerator.js" />
-        <option value="$PROJECT_DIR$/src/lib/PMREMCubeUVPacker.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBRSampler.js" />
-        <option value="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/texture_cube.js" />
         <option value="$PROJECT_DIR$/src/lib/HDRCubeTextureLoader.js" />
         <option value="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR/obj_loader.js" />
         <option value="$PROJECT_DIR$/src/components/5_materials/16_material_types/MaterialTypes.js" />
@@ -279,21 +215,40 @@
         <option value="$PROJECT_DIR$/src/components/1_the_basics/1_welcome/Welcome.js" />
         <option value="$PROJECT_DIR$/src/components/1_the_basics/2_what_is_three/What_is_three.js" />
         <option value="$PROJECT_DIR$/src/components/1_the_basics/5_scene/Scene.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/2D/Draw.js" />
-        <option value="$PROJECT_DIR$/src/2D/Tile.js" />
         <option value="$PROJECT_DIR$/src/components/pathfinding/1_Grid/Grid.js" />
-        <option value="$PROJECT_DIR$/src/components/three/1_the_basics/1_welcome/Welcome.js" />
-        <option value="$PROJECT_DIR$/src/components/three/1_the_basics/1_welcome/Particles.js" />
         <option value="$PROJECT_DIR$/src/components/Card/Card.js" />
-        <option value="$PROJECT_DIR$/src/3D/WireframePlane.js" />
         <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/Applications.js" />
-        <option value="$PROJECT_DIR$/src/components/index.js" />
         <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/applications/exploration.js" />
-        <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/1_what_is_pathfinding.js" />
         <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/applications/industrial.js" />
         <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/2_Applications.js" />
         <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/applications/video_games.js" />
+        <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/3_2_Dijkstra.js" />
+        <option value="$PROJECT_DIR$/src/components/three/1_the_basics/1_welcome/Welcome.js" />
+        <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/4_Dijkstras_algo.js" />
+        <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/5_a_star.js" />
+        <option value="$PROJECT_DIR$/src/components/pathfinding/Grid.js" />
+        <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/3_Dijkstra.js" />
+        <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/1_what_is_pathfinding.js" />
+        <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/input_output.css" />
+        <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/6_input_output.js" />
+        <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/applications/7_distance_between_nodes.js" />
+        <option value="$PROJECT_DIR$/src/2D/Draw.js" />
+        <option value="$PROJECT_DIR$/src/2D/Canvas.js" />
+        <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/7_distance_between_nodes.js" />
+        <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/distance/pythagora.js" />
+        <option value="$PROJECT_DIR$/src/components/three/4_maps/13_maps/TextureMapping.js" />
+        <option value="$PROJECT_DIR$/src/components/three/1_the_basics/1_welcome/IntroText.js" />
+        <option value="$PROJECT_DIR$/src/3D/WireframePlane.js" />
+        <option value="$PROJECT_DIR$/src/components/three/1_the_basics/1_welcome/Particles.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/distance/8_the_three_values.js" />
+        <option value="$PROJECT_DIR$/src/components/index.js" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/8_the_three_values.js" />
+        <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/distance/neighbors.js" />
+        <option value="$PROJECT_DIR$/src/2D/Tile.js" />
+        <option value="$PROJECT_DIR$/src/components/pathfinding/GridGraph.js" />
+        <option value="$PROJECT_DIR$/src/components/pathfinding/1_the_basics/values/gVal.js" />
       </list>
     </option>
   </component>
@@ -318,10 +273,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1970" />
-    <option name="y" value="203" />
-    <option name="width" value="1390" />
-    <option name="height" value="877" />
+    <option name="x" value="1440" />
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -331,17 +286,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="intro_to_threejs" type="cbb8eebc:String" user="intro_to_threejs" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -364,13 +308,14 @@
               <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="3D" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Card" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
@@ -378,14 +323,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="pathfinding" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="pathfinding" type="462c0819:PsiDirectoryNode" />
-              <item name="1_the_basics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
@@ -394,72 +331,35 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="pathfinding" type="462c0819:PsiDirectoryNode" />
               <item name="1_the_basics" type="462c0819:PsiDirectoryNode" />
-              <item name="applications" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="three" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="three" type="462c0819:PsiDirectoryNode" />
+              <item name="pathfinding" type="462c0819:PsiDirectoryNode" />
               <item name="1_the_basics" type="462c0819:PsiDirectoryNode" />
+              <item name="distance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="three" type="462c0819:PsiDirectoryNode" />
+              <item name="pathfinding" type="462c0819:PsiDirectoryNode" />
               <item name="1_the_basics" type="462c0819:PsiDirectoryNode" />
-              <item name="1_welcome" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
             <path>
-              <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="three" type="462c0819:PsiDirectoryNode" />
-              <item name="1_the_basics" type="462c0819:PsiDirectoryNode" />
-              <item name="2_what_is_three" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="three" type="462c0819:PsiDirectoryNode" />
-              <item name="5_materials" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="three" type="462c0819:PsiDirectoryNode" />
-              <item name="5_materials" type="462c0819:PsiDirectoryNode" />
-              <item name="15_materials" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="three" type="462c0819:PsiDirectoryNode" />
-              <item name="5_materials" type="462c0819:PsiDirectoryNode" />
-              <item name="16_material_types" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro_to_threejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_to_threejs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="intro_to_threejs" type="cbb8eebc:String" user="intro_to_threejs" />
             </path>
           </expand>
           <select />
@@ -482,19 +382,19 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/three" />
-      <recent name="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR" />
-      <recent name="$PROJECT_DIR$/src/components/3_lights/11_light_types" />
-      <recent name="$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame" />
-      <recent name="$PROJECT_DIR$/src/components/2_animation" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/5_materials/16_material_types" />
       <recent name="$PROJECT_DIR$/src/components/3_lights/12_recap" />
       <recent name="$PROJECT_DIR$/src/components/3_lights/11_light_types" />
       <recent name="$PROJECT_DIR$/src/components/6_Recap" />
       <recent name="$PROJECT_DIR$/src/components/3_renderer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/pathfinding/1_the_basics" />
+      <recent name="$PROJECT_DIR$/src/components/three" />
+      <recent name="$PROJECT_DIR$/src/components/5_materials/16_material_types/PBR" />
+      <recent name="$PROJECT_DIR$/src/components/3_lights/11_light_types" />
+      <recent name="$PROJECT_DIR$/src/components/2_animation/9_RequestAnimationFrame" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -564,7 +464,12 @@
       <workItem from="1524632473350" duration="3460000" />
       <workItem from="1530316023598" duration="1583000" />
       <workItem from="1530396267987" duration="9888000" />
-      <workItem from="1530562147706" duration="4004000" />
+      <workItem from="1530562147706" duration="4597000" />
+      <workItem from="1530610296154" duration="981000" />
+      <workItem from="1530629714853" duration="12031000" />
+      <workItem from="1530706167726" duration="7546000" />
+      <workItem from="1530789929793" duration="13568000" />
+      <workItem from="1530862709775" duration="5575000" />
     </task>
     <task id="LOCAL-00001" summary="idea ignore">
       <created>1524329705486</created>
@@ -580,11 +485,32 @@
       <option name="project" value="LOCAL" />
       <updated>1524334766686</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="about me">
+      <created>1530566793546</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530566793546</updated>
+    </task>
+    <task id="LOCAL-00004" summary="distance between">
+      <created>1530795554744</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1530795554744</updated>
+    </task>
+    <task id="LOCAL-00005" summary="distance between">
+      <created>1530808810883</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1530808810883</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212502000" />
+    <option name="totallyTimeSpent" value="252796000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -599,15 +525,14 @@
     <frame x="1440" y="22" width="1920" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12832801" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1629393" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32894737" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50106496" side_tool="true" weight="0.26742977" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32778355" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49893504" visible="true" weight="0.2663892" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" weight="0.33333334" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.18903089" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -617,6 +542,7 @@
       <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32778355" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,191 +554,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="idea ignore" />
     <MESSAGE value="about me" />
-    <option name="LAST_COMMIT_MESSAGE" value="about me" />
+    <MESSAGE value="distance between" />
+    <option name="LAST_COMMIT_MESSAGE" value="distance between" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/CodeView/CodeView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/three/5_materials/16_material_types/PBR/PBRSampler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/three/5_materials/16_material_types/materials_editor_code.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Card/Quote/Quote.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/3D/Updater.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/3D/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/textures/graffit_style_alpha.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/textures/noise_alpha.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/3D/Helpers.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/3D/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/three/1_the_basics/1_welcome/Welcome.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/three/1_the_basics/1_welcome/Particles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/2D/Canvas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/pulsar-pathfinding/dist/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/2D/Tile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/three/1_the_basics/1_welcome/IntroText.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/three/1_the_basics/1_welcome/ThankYou.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="63" lean-forward="true" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/three/1_the_basics/4_camera/Camera.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/three/1_the_basics/2_what_is_three/GpuVsCpu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/2D/draw_const.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="49" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/three/5_materials/16_material_types/PBR/texture_cube.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/three/1_the_basics/3_renderer/Renderer.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/three/1_the_basics/5_scene/Scene.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/2D/Draw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/three/1_the_basics/2_what_is_three/What_is_three.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -834,36 +584,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/three/1_the_basics/6_recap/BasicsInAction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/3D/WireframePlane.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="44" column="27" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="27" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/three/2_animation/7_Animation/Animation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Card/Card.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -873,24 +600,8 @@
     <entry file="file://$PROJECT_DIR$/src/components/three/5_materials/15_materials/Materials.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_Grid/Grid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/three/5_materials/15_materials/MaterialSystem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/three/5_materials/16_material_types/MaterialTypes.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -913,63 +624,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/1_what_is_pathfinding.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/three/1_the_basics/2_what_is_three/Support.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
+        <state relative-caret-position="48">
           <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/three/1_the_basics/1_welcome/AboutMe.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="336">
           <caret line="23" column="95" selection-start-line="23" selection-start-column="95" selection-end-line="23" selection-end-column="95" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/applications/exploration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="18" lean-forward="true" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/2_Applications.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -985,10 +650,318 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/applications/video_games.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="121" selection-start-line="11" selection-start-column="121" selection-end-line="11" selection-end-column="121" />
+        <state relative-caret-position="192">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/3_2_Dijkstra.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="66" />
+          <folding>
+            <element signature="e#1#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/applications/exploration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="52" selection-start-line="11" selection-start-column="13" selection-end-line="12" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/5_a_star.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/4_Dijkstras_algo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="32" column="12" lean-forward="true" selection-end-line="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_Grid/Grid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Card/Card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/input_output.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/1_what_is_pathfinding.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/pulsar-pathfinding/dist/triangulation/Line.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/3_Dijkstra.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="95" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/2_Applications.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="17" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/2D/Canvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/pulsar-pathfinding/dist/pathfinding/NavigatorTile.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/2D/Draw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/pulsar-pathfinding/dist/pathfinding/Grid.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/three/4_maps/13_maps/TextureMapping.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/three/1_the_basics/1_welcome/IntroText.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="46" column="77" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/3D/WireframePlane.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/three/1_the_basics/1_welcome/Particles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/3D/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/distance/pythagora.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/distance/8_the_three_values.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/three/1_the_basics/1_welcome/Welcome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/7_distance_between_nodes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Card/Card.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="141" selection-start-line="12" selection-start-column="141" selection-end-line="12" selection-end-column="141" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/distance/neighbors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="33" column="71" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/2D/Tile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/6_input_output.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/GridGraph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/8_the_three_values.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pathfinding/1_the_basics/values/gVal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="71" column="46" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

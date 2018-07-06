@@ -76,12 +76,12 @@ export default class Tile {
         drawAction();
         this.context.closePath();
     }
-    drawStart() {
-        this.fill('rgba(255, 0, 0, 0.5)');
+    drawStart(color = 'red') {
+        this.fill(color);
     }
 
-    drawEnd() {
-        this.fill('rgba(0, 0, 255, 0.5)');
+    drawEnd(color = 'blue') {
+        this.fill(color);
     }
 }
 //# sourceMappingURL=Tile.js.map

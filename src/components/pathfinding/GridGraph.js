@@ -17,20 +17,21 @@ class InputOutput extends Component {
 
   drawGrid() {
     const canvasSize = this.props.canvasSize || { width: 250, height: 250 };
-    const tileSide = this.props.tileSide || 25;
+    const canvasWidth = this.props.canvasSize ? this.props.canvasSize.width : canvasSize.width;
+    const tileSide = this.props.tileSide || canvasWidth / this.props.size.width;
     const tileSize = { width: tileSide, height: tileSide };
     this.canvas = new Canvas(`#${this.canvasId}`, canvasSize);
     this.canvas.drawGrid(this.props.size, tileSize);
   }
 
-  drawStartStop() {
+  drawStartStop({ startCol, stopCol } = {}) {
     if (this.props.start) {
       const startTile = this.canvas.getTile(this.props.start);
-      startTile.drawStart();
+      startTile.drawStart(startCol);
     }
     if(this.props.stop) {
       const endTile = this.canvas.getTile(this.props.stop);
-      endTile.drawEnd();
+      endTile.drawEnd(stopCol);
     }
   }
 
