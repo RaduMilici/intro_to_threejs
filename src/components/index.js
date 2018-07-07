@@ -9,5 +9,6 @@ import AStar from './pathfinding/1_the_basics/5_a_star';
 import InputOutput from './pathfinding/1_the_basics/6_input_output';
 import DistanceBetweenNodes from './pathfinding/1_the_basics/7_distance_between_nodes';
 import TheThreeValues from './pathfinding/1_the_basics/8_the_three_values';
+import Obstacles from './pathfinding/1_the_basics/9_obstacles';
 
-export { Welcome, WhatIsPathfinding, Applications, History, Dijkstra, DijkstrasAlgo, AStar, InputOutput, DistanceBetweenNodes, TheThreeValues };
+export { Welcome, WhatIsPathfinding, Applications, History, Dijkstra, DijkstrasAlgo, AStar, InputOutput, DistanceBetweenNodes, TheThreeValues, Obstacles };

@@ -9,10 +9,20 @@ class InputOutput extends Component {
     this.canvasId = `canvas_${uniqueId()}`;
   }
 
-  start() {
+  start({ obstacles = [], debugNavigator = false, debugMaxSteps = 0 } = {}) {
     this.drawGrid();
-    const grid = new Grid(this.props.size);
-    this.makeNavigator(grid, this.props.size);
+    this.debugNavigator = debugNavigator;
+    this.debugMaxSteps = debugMaxSteps;
+    if (!this.grid) {
+      this.makeGrid();
+    }
+    obstacles.forEach(obstacle => this.grid.obstacles.add(obstacle));
+    this.drawObstacles();
+    this.makeNavigator(this.grid, this.props.size);
+  }
+
+  makeGrid() {
+    this.grid = new Grid(this.props.size);
   }
 
   drawGrid() {
@@ -22,6 +32,13 @@ class InputOutput extends Component {
     const tileSize = { width: tileSide, height: tileSide };
     this.canvas = new Canvas(`#${this.canvasId}`, canvasSize);
     this.canvas.drawGrid(this.props.size, tileSize);
+  }
+
+  drawObstacles() {
+    this.grid.obstacles.list.forEach(({ position }) => {
+      const canvasTile = this.canvas.getTile(position);
+      canvasTile.fill('black');
+    });
   }
 
   drawStartStop({ startCol, stopCol } = {}) {
@@ -51,14 +68,16 @@ class InputOutput extends Component {
       endTile.drawEnd();
     };
 
-    const navigator = new Navigator(
+    this.navigator = new Navigator(
         grid,
         navBegin,
         navEnd,
         undefined,
-        onNavComplete
+        onNavComplete,
+        this.debugNavigator,
+        this.debugMaxSteps
     );
-    navigator.start();
+    this.navigator.start();
   }
 
   render() {
