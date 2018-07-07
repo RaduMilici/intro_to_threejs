@@ -114,9 +114,7 @@ class Wall extends Component {
             <GridGraph ref='grid' canvasSize={this.canvasSize} size={this.size} start={this.start} stop={this.stop}/>
             <div style={{display: 'flex', alignItems: 'center', width: '100%', justifyContent: 'space-evenly', flexDirection: 'column', padding: 30}}>
               <ul className='space-list' style={{height: '100%'}}>
-                <li>The G value represents the distance to from the starting point to a given node on the grid, following the path generated to get there.</li>
-                <li>Recalculation is not necessary for already visited nodes.</li>
-                <li>We can now walk through the path one tile at a time and observe each individual G value.</li>
+                {this.props.children}
               </ul>
               <div style={{display: 'flex', alignItems: 'center', width: '100%', justifyContent: 'space-evenly'}}>
                 <button className='button' onClick={() =>this.stepNavigator(-1)}> &larr; </button>
