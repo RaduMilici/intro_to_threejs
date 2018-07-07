@@ -8,6 +8,42 @@ import HVal from './values/hVal';
 import FVal from './values/fVal';
 
 class Obstacles extends Component {
+  makeWall = () => {
+    const obstacles = [];
+
+    for (let i = 1; i < 4; i++) {
+      obstacles.push({ x: 2, y: i });
+    }
+
+    return obstacles;
+  };
+
+  makeConcave = () => {
+    const obstacles = [];
+
+    for (let i = 0; i < 4; i++) {
+      obstacles.push({ x: 3, y: i });
+    }
+    obstacles.push({ x: 1, y: 3 });
+    obstacles.push({ x: 2, y: 3 });
+
+    return obstacles;
+  };
+
+  makeMaze = () => {
+    const obstacles = [];
+
+    for (let i = 0; i < 4; i++) {
+      obstacles.push({ x: 1, y: i });
+    }
+
+    for (let i = 1; i < 5; i++) {
+      obstacles.push({ x: 3, y: i });
+    }
+
+    return obstacles;
+  };
+
   render() {
     return (
         <div>
@@ -18,20 +54,20 @@ class Obstacles extends Component {
               <Tabs forceRenderTabPanel={true}>
                 <TabList>
                   <Tab>Simple wall</Tab>
-                  <Tab>H value</Tab>
-                  <Tab>F value</Tab>
+                  <Tab>Concave</Tab>
+                  <Tab>Maze</Tab>
                 </TabList>
 
                 <TabPanel>
-                  <Wall/>
+                  <Wall obstacles={this.makeWall()}/>
                 </TabPanel>
 
                 <TabPanel>
-                  <HVal/>
+                  <Wall obstacles={this.makeConcave()}/>
                 </TabPanel>
 
                 <TabPanel>
-                  <FVal/>
+                  <Wall obstacles={this.makeMaze()}/>
                 </TabPanel>
               </Tabs>
             </div>

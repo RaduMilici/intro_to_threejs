@@ -77,7 +77,7 @@ export default class Tile {
         this.context.closePath();
     }
     drawCurrent() {
-        this.stroke('black', 10);
+        this.stroke('#6eb9f7', 10);
     }
     drawStart(color = 'red') {
         this.fill(color);

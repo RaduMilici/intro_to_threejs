@@ -9,10 +9,13 @@ class InputOutput extends Component {
     this.canvasId = `canvas_${uniqueId()}`;
   }
 
-  start({ obstacles = [], debugNavigator = false, debugMaxSteps = 0 } = {}) {
-    this.drawGrid();
+  start({ obstacles = [], debugNavigator = false, debugMaxSteps = 0, skipDraw = false, onComplete = () => {} } = {}) {
+    if (!skipDraw) {
+      this.drawGrid();
+    }
     this.debugNavigator = debugNavigator;
     this.debugMaxSteps = debugMaxSteps;
+    this.onComplete = onComplete;
     if (!this.grid) {
       this.makeGrid();
     }
@@ -60,8 +63,8 @@ class InputOutput extends Component {
     startTile.drawStart();
 
     const onNavComplete = (path) => {
-      path.forEach(({ position }) => {
-        const tile = this.canvas.getTile(position);
+      path.forEach((navTile) => {
+        const tile = this.canvas.getTile(navTile.position);
         tile.fill('green');
         tile.stroke();
       });
@@ -73,7 +76,7 @@ class InputOutput extends Component {
         navBegin,
         navEnd,
         undefined,
-        onNavComplete,
+        this.onComplete || this.onNavComplete,
         this.debugNavigator,
         this.debugMaxSteps
     );
