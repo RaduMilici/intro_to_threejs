@@ -4,8 +4,6 @@ import Card from '../../Card/Card';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Wall from './obstacles/wall';
-import HVal from './values/hVal';
-import FVal from './values/fVal';
 
 class Obstacles extends Component {
   makeWall = () => {

@@ -9,13 +9,15 @@ class InputOutput extends Component {
     this.canvasId = `canvas_${uniqueId()}`;
   }
 
-  start({ obstacles = [], debugNavigator = false, debugMaxSteps = 0, skipDraw = false, onComplete = () => {} } = {}) {
+  start({ obstacles = [], debugNavigator = false, debugMaxSteps = 0, skipDraw = false, onComplete, debugInterval, onProgress } = {}) {
     if (!skipDraw) {
       this.drawGrid();
     }
     this.debugNavigator = debugNavigator;
     this.debugMaxSteps = debugMaxSteps;
+    this.debugInterval = debugInterval;
     this.onComplete = onComplete;
+    this.onProgress = onProgress;
     if (!this.grid) {
       this.makeGrid();
     }
@@ -26,6 +28,10 @@ class InputOutput extends Component {
 
   makeGrid() {
     this.grid = new Grid(this.props.size);
+  }
+
+  stopNavigator() {
+    this.navigator.stop();
   }
 
   drawGrid() {
@@ -75,10 +81,11 @@ class InputOutput extends Component {
         grid,
         navBegin,
         navEnd,
-        undefined,
-        this.onComplete || this.onNavComplete,
+        this.onProgress || undefined,
+        this.onComplete || onNavComplete,
         this.debugNavigator,
-        this.debugMaxSteps
+        this.debugMaxSteps,
+        this.debugInterval
     );
     this.navigator.start();
   }
