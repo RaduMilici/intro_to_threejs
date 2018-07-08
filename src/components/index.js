@@ -15,5 +15,4 @@ import InAction from './pathfinding/1_the_basics/InAction';
 import ThankYou from './three/1_the_basics/1_welcome/ThankYou';
 
 export { Welcome, WhatIsPathfinding, Applications, History, Dijkstra, DijkstrasAlgo, AStar,
-  InputOutput, DistanceBetweenNodes, TheThreeValues, Obstacles, InAction, Advanced, ThankYou
-  };
+  InputOutput, DistanceBetweenNodes, TheThreeValues, Obstacles, InAction, Advanced, ThankYou };
