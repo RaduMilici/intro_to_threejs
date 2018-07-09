@@ -26,7 +26,12 @@ class InAction extends Component {
     this.refs.grid.start({ debugInterval: this.debugInterval, onProgress: this.onNavExplore });
   }
 
+  componentWillUnmount() {
+    this.refs.grid.stopNavigator();
+  }
+
   onNavExplore = ({ position }) => {
+    if (!this.refs.grid) return;
     const tile = this.refs.grid.canvas.getTile(position);
     tile.fill('blue');
     tile.stroke();

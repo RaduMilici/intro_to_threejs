@@ -23,6 +23,10 @@ class InAction extends Component {
     this.startNav();
   }
 
+  componentWillUnmount() {
+    this.navigators.forEach(navigator => navigator.stop());
+  }
+
   randomColor() {
     const r = 255*Math.random()|0,
         g = 255*Math.random()|0,
