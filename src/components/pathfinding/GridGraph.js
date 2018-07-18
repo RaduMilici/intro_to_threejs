@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Canvas from '../../2D/Canvas';
-import { Navigator, Grid } from 'pulsar-pathfinding';
 import uniqueId from '../../2D/uniqueID';
+import { Grid, Navigator } from '../../lib/pulsar-pathfinding';
 
 class InputOutput extends Component {
   constructor() {

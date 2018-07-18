@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Canvas from '../../../../2D/Canvas';
-import { Line } from 'pulsar-pathfinding';
+import { Line } from '../../../../lib/pulsar-pathfinding';
 
 
 class DistanceBetweenNodes extends Component {

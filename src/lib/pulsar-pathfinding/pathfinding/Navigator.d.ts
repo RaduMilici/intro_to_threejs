@@ -1,0 +1,45 @@
+import NavigatorTile from './NavigatorTile';
+import row from '../interfaces/row';
+import Grid from './Grid';
+import id from '../interfaces/id';
+declare type onExplore = (tile: NavigatorTile) => void;
+declare type onComplete = (path: NavigatorTile[]) => void;
+export default class Navigator implements id {
+    private grid;
+    begin: NavigatorTile;
+    private end;
+    private readonly onExplore;
+    private readonly onComplete;
+    private debug;
+    private debugMaxSteps;
+    private debugInterval;
+    id: number;
+    private _path;
+    static verticalCost: number;
+    static diagonalCost: number;
+    private static neighborsCount;
+    private tiles;
+    private open;
+    private closed;
+    current: NavigatorTile;
+    private debugSteps;
+    isDone: boolean;
+    forceStop: boolean;
+    constructor(grid: Grid, begin: NavigatorTile, end: NavigatorTile, onExplore?: onExplore, onComplete?: onComplete, debug?: boolean, debugMaxSteps?: number, debugInterval?: number);
+    readonly path: row;
+    start(): void;
+    stop(): void;
+    private addOpenTiles;
+    private calculateH;
+    calculateG(tile: NavigatorTile): void;
+    private calculateF;
+    static getRowOffset(iteration: number): number;
+    static getColOffset(iteration: number): number;
+    static isDiagonal(tile: NavigatorTile, checkTile: NavigatorTile): boolean;
+    private getParent;
+    chooseNext(): NavigatorTile | null;
+    private getPath;
+    private static defaultOnComplete;
+}
+export {};
+//# sourceMappingURL=Navigator.d.ts.map

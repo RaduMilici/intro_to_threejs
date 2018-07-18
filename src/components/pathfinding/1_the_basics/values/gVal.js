@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import GridGraph from '../../GridGraph';
-import { Navigator, Grid, Vector } from 'pulsar-pathfinding';
+import { Navigator, Grid, Vector } from '../../../../lib/pulsar-pathfinding';
 
 
 class gVal extends Component {

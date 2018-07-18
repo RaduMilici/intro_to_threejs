@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import SceneView from '../../SceneView/SceneView';
 import Card from '../../Card/Card';
 import Canvas from '../../../2D/Canvas';
-import { Line } from 'pulsar-pathfinding';
+import { Line } from '../../../lib/pulsar-pathfinding';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Pythagoras from './distance/pythagora';

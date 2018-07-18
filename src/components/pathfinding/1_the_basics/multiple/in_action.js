@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import GridGraph from '../../GridGraph';
-import { Vector } from 'pulsar-pathfinding';
+
 
 
 class InAction extends Component {

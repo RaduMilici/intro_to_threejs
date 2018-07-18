@@ -1,5 +1,5 @@
 import uniqueId from './uniqueID';
-import { NavigatorTile } from 'pulsar-pathfinding';
+import { NavigatorTile } from '../lib/pulsar-pathfinding';
 import { start, obstacle, outline, empty } from './draw_const';
 export default class Tile {
     constructor(size, position, _gridCoords, context) {

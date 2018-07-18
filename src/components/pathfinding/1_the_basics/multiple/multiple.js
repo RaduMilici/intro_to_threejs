@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import { Vector } from 'pulsar-pathfinding';
 import uniqueId from '../../../../2D/uniqueID';
 import Canvas from '../../../../2D/Canvas';
-import { Navigator, Grid } from 'pulsar-pathfinding';
+import { Navigator, Grid, Vector } from '../../../../lib/pulsar-pathfinding';
 
 
 class InAction extends Component {
