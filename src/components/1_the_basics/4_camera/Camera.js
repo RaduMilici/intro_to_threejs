@@ -22,7 +22,13 @@ class Camera extends Component {
 const aspect = 16 / 9;
 const near = 1;
 const far = 10;
-const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
+
+const camera = new THREE.PerspectiveCamera(
+  fov,
+  aspect,
+  near,
+  far
+);
 
 return camera;
 `

@@ -45,8 +45,8 @@ class CodeView extends Component {
               className='ace-editor'
               mode='javascript'
               theme='github'
-              fontSize={this.props.fontSize}
-              width={`${this.props.width}px`}
+              fontSize={20}
+              width={'700px'}
               height={`${this.props.height}px`}
               onChange={this.onChange}
               value={this.props.code}
@@ -62,11 +62,11 @@ class CodeView extends Component {
 
 CodeView.defaultProps = {
   code: '',
-  width: 500,
+  width: 700,
   height: 500,
   readOnly: false,
   args: {},
-  fontSize: 12,
+  fontSize: 18,
   onChange: () => {},
   beforeChange: () => {},
   onClick: () => {},

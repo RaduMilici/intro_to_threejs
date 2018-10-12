@@ -17,7 +17,8 @@ class PointLight extends Component {
       },
       code:
 `// light
-const pointLight = new THREE.PointLight(0xFCD440, 1, 18);
+const pointLight = 
+  new THREE.PointLight(0xFCD440, 1, 18);
 // shadow
 renderer.shadowMap.enabled = true;
 pointLight.castShadow = true;
@@ -25,6 +26,7 @@ orbiter.castShadow = true;
 room.receiveShadow = true;
 
 scene.add(pointLight);
+
 return pointLight;
 `
     };
@@ -101,7 +103,7 @@ return pointLight;
   render() {
     return(
         <div>
-          <img width='550' height='250' src={spotlight} style={{'position': 'absolute'}}/>
+          <img width='700' height='250' src={spotlight} style={{'position': 'absolute'}}/>
           <CodeView
             code={this.state.code}
             ref={instance => { this.codeView = instance; }}

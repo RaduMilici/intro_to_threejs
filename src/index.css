@@ -20,3 +20,7 @@ code {
     position: absolute;
     z-index: 1;
 }
+
+li {
+    font-size: 35px;
+}

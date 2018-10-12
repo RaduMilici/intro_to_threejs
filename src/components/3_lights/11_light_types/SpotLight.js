@@ -100,8 +100,8 @@ return spotLight;
   render() {
     return (
         <div style={{'position': 'relative'}}>
-          <img width='550' height='250' style={{'position': 'absolute'}} src={spotlight}/>
-          <DatGui style={{'left': '275px'}} data={this.state.uiData} onUpdate={this.updateLightSettings} className='demo-dat-gui'>
+          <img width='700' height='250' style={{'position': 'absolute'}} src={spotlight}/>
+          <DatGui style={{'left': '400px'}} data={this.state.uiData} onUpdate={this.updateLightSettings} className='demo-dat-gui'>
             <DatFolder title='settings' children={[
               <DatNumber path='intensity' label='intensity' min={0} max={5} step={0.1} />,
               <DatNumber path='distance' label='distance' min={0.1} max={50} step={0.1} />,

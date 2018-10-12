@@ -8,10 +8,10 @@ class WhatIsThree extends Component {
         <div>
           <SceneView/>
           <Card>
-            <h2>What is three.js?</h2>
+            <h1>What is three.js?</h1>
             <ul>
               <li><a href='https://github.com/mrdoob/three.js'>github.com/mrdoob/three.js</a></li>
-              <li>an easy to use 3D library</li>
+              <li>easy to use 3D library</li>
               <li>great abstraction over raw WebGL</li>
               <li>provides &lt;canvas&gt;, &lt;svg&gt;, CSS3D and (most importantly) WebGL renderers</li>
               <li>updated frequently (92 revisions in 8 years)</li>

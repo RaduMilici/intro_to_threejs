@@ -16,12 +16,14 @@ class LightTypes extends Component {
     const loaderCode = 'const loader = new THREE.TextureLoader();';
     const diffuseMapCode = 'wall.material.map = loader.load(mapUrls.diffuse);';
     const normalMapCode = `wall.material.normalMap = loader.load(mapUrls.normal);
-wall.material.normalScale = { x: 5, y: 5 };`
-    const displacementMapCode = `wall.material.displacementMap = loader.load(mapUrls.disp);
+wall.material.normalScale = { x: 5, y: 5 };`;
+    const displacementMapCode = `wall.material.displacementMap = 
+    loader.load(mapUrls.disp);
 wall.material.displacementScale = 2;`;
     const alphaMapCode = `graffiti.material.map = loader.load(mapUrls.graffiti);
-graffiti.material.alphaMap = loader.load(mapUrls.graffitiAlpha);
-graffiti.material.transparent = true;`
+graffiti.material.alphaMap =
+  loader.load(mapUrls.graffitiAlpha);
+graffiti.material.transparent = true;`;
 
     this.state = {
       diffuseMapCode: `${loaderCode}\n${diffuseMapCode}\n`,

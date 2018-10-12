@@ -44,7 +44,6 @@ renderer.clear();
             <h2>Renderer</h2>
             <CodeView
                 code={this.state.code}
-                fontSize={13}
                 beforeChange={this.beforeChange}
             />
           </Card>
